@@ -2,6 +2,7 @@ import { Component, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { CourseService } from '../../../services/course.service';
+import { AuthService } from '../../../services/auth.service';
 
 @Component({
   selector: 'app-course-list',
@@ -12,6 +13,7 @@ import { CourseService } from '../../../services/course.service';
 })
 export class CourseListComponent implements OnInit {
   private courseService = inject(CourseService);
+  private authService = inject(AuthService);
   
   courses: any[] = [];
   isLoading = true;
@@ -32,6 +34,6 @@ export class CourseListComponent implements OnInit {
   getCourseImage(path: string): string {
     if (!path) return 'assets/default-course.png';
     if (path.startsWith('http')) return path;
-    return `http://localhost:5000${path}`;
+    return `${this.authService.baseUrl}${path}`;
   }
 }
