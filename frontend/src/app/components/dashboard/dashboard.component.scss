@@ -267,7 +267,84 @@
   .content-area {
     flex: 1;
     overflow-y: auto;
-    padding: 0; // Padding handled by child components for better edge-to-edge designs if needed
+    padding: 0;
     background: var(--slate-50);
   }
+}
+
+// =====================
+// MOBILE RESPONSIVE
+// =====================
+@media (max-width: 768px) {
+  .sidebar {
+    display: none !important;
+  }
+
+  .dashboard-layout {
+    flex-direction: column;
+  }
+
+  .main-content {
+    height: 100vh;
+
+    .topbar {
+      height: 64px;
+      padding: 0 16px;
+
+      .welcome-msg {
+        font-size: 0.95rem;
+      }
+    }
+
+    .content-area {
+      padding-bottom: 72px; // Space for bottom nav
+    }
+  }
+
+  // Bottom Navigation Bar for mobile
+  .mobile-bottom-nav {
+    display: flex !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background: white;
+    border-top: 1px solid var(--slate-200);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    z-index: 100;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8px;
+
+    a, button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      padding: 8px 12px;
+      border-radius: 12px;
+      color: var(--slate-400);
+      text-decoration: none;
+      font-size: 0.65rem;
+      font-weight: 600;
+      border: none;
+      background: none;
+      cursor: pointer;
+      transition: all 0.2s;
+      min-width: 56px;
+
+      .nav-icon { font-size: 1.4rem; }
+
+      &.active, &:hover {
+        color: var(--primary);
+        background: var(--primary-surface);
+      }
+    }
+  }
+}
+
+// Hide bottom nav on desktop
+.mobile-bottom-nav {
+  display: none;
 }

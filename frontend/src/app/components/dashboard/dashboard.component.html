@@ -77,4 +77,28 @@
       <router-outlet></router-outlet>
     </div>
   </main>
+
+  <!-- Mobile Bottom Navigation Bar -->
+  <nav class="mobile-bottom-nav">
+    <a routerLink="/dashboard/inicio" routerLinkActive="active">
+      <span class="nav-icon">🏠</span>
+      Inicio
+    </a>
+    <a routerLink="/dashboard/cursos" routerLinkActive="active">
+      <span class="nav-icon">📚</span>
+      Cursos
+    </a>
+    <a routerLink="/dashboard/progreso" routerLinkActive="active" *ngIf="user$ | async">
+      <span class="nav-icon">📈</span>
+      Progreso
+    </a>
+    <a routerLink="/dashboard/perfil" routerLinkActive="active" *ngIf="user$ | async">
+      <span class="nav-icon">👤</span>
+      Perfil
+    </a>
+    <button (click)="logout()" *ngIf="user$ | async">
+      <span class="nav-icon">🚪</span>
+      Salir
+    </button>
+  </nav>
 </div>
