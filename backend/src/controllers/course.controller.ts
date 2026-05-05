@@ -55,13 +55,14 @@ export const getFinalExamQuestions = async (req: Request, res: Response): Promis
 // @access  Private/Admin
 export const createCourse = async (req: Request, res: Response): Promise<any> => {
   try {
-    const { titulo, descripcion, categoria, imagen, lessons } = req.body;
+    const { titulo, descripcion, categoria, imagen, videoIntro, lessons } = req.body;
 
     const course = new Course({
       titulo,
       descripcion,
       categoria,
       imagen,
+      videoIntro
     });
 
     const createdCourse = await course.save();
@@ -103,7 +104,7 @@ export const createCourse = async (req: Request, res: Response): Promise<any> =>
 // @access  Private/Admin
 export const updateCourse = async (req: Request, res: Response): Promise<any> => {
   try {
-    const { titulo, descripcion, categoria, imagen, isActive } = req.body;
+    const { titulo, descripcion, categoria, imagen, videoIntro, isActive } = req.body;
 
     const course = await Course.findById(req.params.id);
 
@@ -112,6 +113,7 @@ export const updateCourse = async (req: Request, res: Response): Promise<any> =>
       course.descripcion = descripcion || course.descripcion;
       course.categoria = categoria || course.categoria;
       course.imagen = imagen || course.imagen;
+      course.videoIntro = videoIntro !== undefined ? videoIntro : course.videoIntro;
       if (isActive !== undefined) course.isActive = isActive;
 
       const updatedCourse = await course.save();
