@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AdminService } from '../../../services/admin.service';
 import { UiService } from '../../../services/ui.service';
+import { AuthService } from '../../../services/auth.service';
 
 @Component({
   selector: 'app-admin-users',
@@ -14,6 +15,9 @@ import { UiService } from '../../../services/ui.service';
 export class AdminUsersComponent implements OnInit {
   private adminService = inject(AdminService);
   private uiService = inject(UiService);
+  private authService = inject(AuthService);
+
+  baseUrl = this.authService.baseUrl;
 
   users: any[] = [];
   filteredUsers: any[] = [];

@@ -62,7 +62,7 @@
           <td>
             <div class="d-flex align-items-center">
               <div class="user-avatar-v2" [ngClass]="{'has-img': user.fotoPerfil}">
-                <img *ngIf="user.fotoPerfil" [src]="'http://localhost:5000' + user.fotoPerfil" alt="" />
+                <img *ngIf="user.fotoPerfil" [src]="baseUrl + user.fotoPerfil" alt="" />
                 <span *ngIf="!user.fotoPerfil">{{ user.nombre.charAt(0) }}</span>
                 <div class="status-dot"></div>
               </div>
@@ -121,7 +121,7 @@
           <div class="col-md-4 border-end">
             <div class="student-profile-side">
               <div class="avatar-giant">
-                <img *ngIf="selectedUser.user.fotoPerfil" [src]="'http://localhost:5000' + selectedUser.user.fotoPerfil">
+                <img *ngIf="selectedUser.user.fotoPerfil" [src]="baseUrl + selectedUser.user.fotoPerfil">
                 <div *ngIf="!selectedUser.user.fotoPerfil" class="initials-giant">{{ selectedUser.user.nombre.charAt(0) }}</div>
               </div>
               <h4 class="mt-4">{{ selectedUser.user.nombre }}</h4>
