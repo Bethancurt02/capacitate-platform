@@ -19,6 +19,7 @@ export class ProfileComponent implements OnInit {
   private sanitizer = inject(DomSanitizer);
 
   user$ = this.authService.currentUser$;
+  baseUrl = this.authService.baseUrl;
   user: any;
 
   profileForm!: FormGroup;

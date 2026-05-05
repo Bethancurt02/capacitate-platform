@@ -21,7 +21,7 @@
           <div class="avatar-upload">
             <div class="avatar-preview">
               <img [src]="imagePreview" *ngIf="imagePreview" alt="Preview">
-              <img [src]="'http://localhost:5000' + user.fotoPerfil" *ngIf="!imagePreview && user.fotoPerfil" alt="Current Avatar">
+              <img [src]="baseUrl + user.fotoPerfil" *ngIf="!imagePreview && user.fotoPerfil" alt="Current Avatar">
               <div class="avatar-placeholder" *ngIf="!imagePreview && !user.fotoPerfil">
                 {{ user.nombre.charAt(0).toUpperCase() }}
               </div>
