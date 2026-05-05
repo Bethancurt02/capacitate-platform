@@ -15,6 +15,7 @@ export class DashboardComponent {
   private router = inject(Router);
   
   user$ = this.authService.currentUser$;
+  baseUrl = this.authService.baseUrl;
 
   logout() {
     this.authService.logout();

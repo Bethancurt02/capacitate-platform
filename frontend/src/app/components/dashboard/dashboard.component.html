@@ -56,7 +56,7 @@
           <div class="user-avatar" *ngIf="!user.fotoPerfil">
             {{ user.nombre.charAt(0).toUpperCase() }}
           </div>
-          <img [src]="'http://localhost:5000' + user.fotoPerfil" class="user-avatar-img" *ngIf="user.fotoPerfil" alt="Foto de Perfil">
+          <img [src]="baseUrl + user.fotoPerfil" class="user-avatar-img" *ngIf="user.fotoPerfil" alt="Foto de Perfil">
         </div>
       </ng-container>
       
