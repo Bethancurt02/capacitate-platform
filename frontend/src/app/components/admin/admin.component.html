@@ -1,0 +1,68 @@
+<div class="admin-layout">
+  <!-- Admin Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo" class="sidebar-logo" style="width: 40px; height: 40px; border-radius: 8px;">
+        <h2>Capacítate PRO</h2>
+      </div>
+    </div>
+    
+    <nav class="sidebar-nav">
+      <ul>
+        <li>
+          <a routerLink="/admin/dashboard" routerLinkActive="active">
+            <span class="icon">📊</span> Dashboard
+          </a>
+        </li>
+        <li>
+          <a routerLink="/admin/usuarios" routerLinkActive="active">
+            <span class="icon">👥</span> Usuarios
+          </a>
+        </li>
+        <li>
+          <a routerLink="/admin/cursos" routerLinkActive="active">
+            <span class="icon">📚</span> Gestión Cursos
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="sidebar-footer">
+      <button class="btn-logout" (click)="logout()">
+        <span class="icon">🚪</span> Cerrar sesión
+      </button>
+    </div>
+  </aside>
+
+  <!-- Admin Main Content -->
+  <main class="main-content">
+    <header class="topbar">
+      <div class="title">Administración de Plataforma</div>
+      <div class="admin-badge">Admin</div>
+    </header>
+
+    <div class="content-area">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+
+  <!-- Global Custom Confirmation Modal -->
+  <div class="global-modal-overlay" *ngIf="activeModal">
+    <div class="custom-alert-card animate-pop-in" [ngClass]="activeModal.type || 'warning'">
+      <div class="alert-icon">
+        <i class="fas" [ngClass]="{
+          'fa-exclamation-triangle': activeModal.type === 'warning' || activeModal.type === 'danger',
+          'fa-info-circle': activeModal.type === 'info',
+          'fa-check-circle': activeModal.type === 'success'
+        }"></i>
+      </div>
+      <h3>{{ activeModal.title }}</h3>
+      <p>{{ activeModal.message }}</p>
+      <div class="alert-actions">
+        <button class="btn-cancel" (click)="handleCancel()">{{ activeModal.cancelText || 'Cancelar' }}</button>
+        <button class="btn-confirm" (click)="handleConfirm()">{{ activeModal.confirmText || 'Confirmar' }}</button>
+      </div>
+    </div>
+  </div>
+</div>

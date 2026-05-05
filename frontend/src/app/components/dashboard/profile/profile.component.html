@@ -1,0 +1,104 @@
+<div class="profile-page">
+  <div class="profile-header">
+    <h2>Configuración de Perfil</h2>
+    <p>Gestiona tu información personal y la seguridad de tu cuenta.</p>
+  </div>
+
+  <div class="profile-content" *ngIf="user">
+    
+    <!-- Left Column: Forms -->
+    <div class="forms-column">
+      
+      <!-- Profile Form -->
+      <div class="card">
+        <h3>Información Personal</h3>
+        <div class="alert" [ngClass]="profileMessage.type" *ngIf="profileMessage.text">
+          {{ profileMessage.text }}
+        </div>
+        
+        <form [formGroup]="profileForm" (ngSubmit)="onSubmitProfile()">
+          
+          <div class="avatar-upload">
+            <div class="avatar-preview">
+              <img [src]="imagePreview" *ngIf="imagePreview" alt="Preview">
+              <img [src]="'http://localhost:5000' + user.fotoPerfil" *ngIf="!imagePreview && user.fotoPerfil" alt="Current Avatar">
+              <div class="avatar-placeholder" *ngIf="!imagePreview && !user.fotoPerfil">
+                {{ user.nombre.charAt(0).toUpperCase() }}
+              </div>
+            </div>
+            <div class="upload-controls">
+              <label for="fotoInput" class="btn-outline">Cambiar foto</label>
+              <input type="file" id="fotoInput" accept="image/*" (change)="onFileSelected($event)" hidden>
+              <small>Formatos: JPG, PNG</small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Nombre Completo</label>
+            <input type="text" formControlName="nombre">
+          </div>
+
+          <div class="form-group">
+            <label>Correo Electrónico</label>
+            <input type="email" formControlName="email">
+          </div>
+
+          <button type="submit" class="btn-primary" [disabled]="profileForm.invalid || isSavingProfile">
+            {{ isSavingProfile ? 'Guardando...' : 'Guardar Cambios' }}
+          </button>
+        </form>
+      </div>
+
+      <!-- Password Form -->
+      <div class="card mt-4">
+        <h3>Seguridad</h3>
+        <div class="alert" [ngClass]="passwordMessage.type" *ngIf="passwordMessage.text">
+          {{ passwordMessage.text }}
+        </div>
+
+        <form [formGroup]="passwordForm" (ngSubmit)="onSubmitPassword()">
+          <div class="form-group">
+            <label>Contraseña Actual</label>
+            <input type="password" formControlName="oldPassword" placeholder="Ingresa tu contraseña actual">
+          </div>
+
+          <div class="form-group">
+            <label>Nueva Contraseña</label>
+            <input type="password" formControlName="newPassword" placeholder="Mínimo 6 caracteres">
+          </div>
+
+          <button type="submit" class="btn-primary" [disabled]="passwordForm.invalid || isSavingPassword">
+            {{ isSavingPassword ? 'Actualizando...' : 'Actualizar Contraseña' }}
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Right Column: Stats -->
+    <div class="stats-column">
+      <div class="card">
+        <h3>Tu Progreso Resumido</h3>
+        
+        <div class="stat-item">
+          <div class="stat-value">{{ progresses.length }}</div>
+          <div class="stat-label">Cursos Inscritos</div>
+        </div>
+        
+        <div class="progress-list">
+          <div class="progress-item" *ngFor="let p of progresses">
+            <div class="course-name">{{ p.curso?.titulo }}</div>
+            <div class="bar-container">
+              <div class="bar-fill" [style.width.%]="p.porcentaje" [ngClass]="{'completed': p.examenAprobado}"></div>
+            </div>
+            <div class="percentage">{{ p.porcentaje }}%</div>
+          </div>
+          <div *ngIf="progresses.length === 0" class="no-data">
+            No tienes progreso aún.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,80 @@
+<div class="dashboard-layout">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo" class="sidebar-logo" style="width: 40px; height: 40px; border-radius: 8px;">
+        <h2>Capacítate PRO</h2>
+      </div>
+    </div>
+    
+    <nav class="sidebar-nav">
+      <ul>
+        <li>
+          <a routerLink="/dashboard/inicio" routerLinkActive="active">
+            <span class="icon">🏠</span> Inicio
+          </a>
+        </li>
+        <li>
+          <a routerLink="/dashboard/cursos" routerLinkActive="active">
+            <span class="icon">📚</span> Cursos
+          </a>
+        </li>
+        <li *ngIf="user$ | async">
+          <a routerLink="/dashboard/progreso" routerLinkActive="active">
+            <span class="icon">📈</span> Mi Progreso
+          </a>
+        </li>
+        <li *ngIf="user$ | async">
+          <a routerLink="/dashboard/perfil" routerLinkActive="active">
+            <span class="icon">👤</span> Perfil
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="sidebar-footer">
+      <button class="btn-logout" (click)="logout()" *ngIf="user$ | async">
+        <span class="icon">🚪</span> Cerrar sesión
+      </button>
+      <div class="guest-actions" *ngIf="(user$ | async) === null">
+        <p>Inicia sesión para guardar tu progreso.</p>
+        <a routerLink="/login" class="btn-login-small">Iniciar sesión</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <header class="topbar">
+      <!-- Welcome MSG para User Logueado -->
+      <ng-container *ngIf="user$ | async as user; else guestTopbar">
+        <div class="welcome-msg">
+          Hola, <strong>{{ user.nombre }}</strong>
+        </div>
+        <div class="user-avatar-container" [routerLink]="['/dashboard/perfil']">
+          <div class="user-avatar" *ngIf="!user.fotoPerfil">
+            {{ user.nombre.charAt(0).toUpperCase() }}
+          </div>
+          <img [src]="'http://localhost:5000' + user.fotoPerfil" class="user-avatar-img" *ngIf="user.fotoPerfil" alt="Foto de Perfil">
+        </div>
+      </ng-container>
+      
+      <!-- Topbar para Visitante -->
+      <ng-template #guestTopbar>
+        <div class="welcome-msg">
+          Bienvenido a <strong>Capacítate</strong>
+        </div>
+        <div class="auth-buttons">
+          <a routerLink="/login" class="btn-text">Entrar</a>
+          <a routerLink="/register" class="btn-primary">Registrarse</a>
+        </div>
+      </ng-template>
+    </header>
+
+    <div class="content-area">
+      <!-- Aquí se renderizan los subcomponentes del dashboard (inicio, cursos, etc) -->
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>

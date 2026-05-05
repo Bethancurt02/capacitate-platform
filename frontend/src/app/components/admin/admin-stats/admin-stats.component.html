@@ -1,0 +1,108 @@
+<div class="stats-page animate-fade-in">
+  <div class="loading-overlay" *ngIf="isLoading">
+    <div class="spinner-container">
+      <div class="glow-spinner"></div>
+      <p>Sincronizando Métricas...</p>
+    </div>
+  </div>
+
+  <ng-container *ngIf="!isLoading && stats">
+    <div class="admin-header-v2 mb-5">
+      <div class="welcome-text">
+        <h1 class="display-title">Panel de Control <span class="badge-live">Live</span></h1>
+        <p class="subtitle">Análisis profundo del rendimiento de <strong>Capacítate PRO</strong>.</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn-refresh" (click)="fetchStats()">
+          <i class="fas fa-sync-alt"></i> Actualizar
+        </button>
+      </div>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="stats-premium-grid">
+      <div class="stat-premium-card users">
+        <div class="card-bg-glow"></div>
+        <div class="card-content">
+          <div class="icon-circle"><i class="fas fa-user-graduate"></i></div>
+          <div class="info">
+            <span class="label">Estudiantes Activos</span>
+            <h2 class="counter">{{ stats.totalUsers }}</h2>
+            <span class="trend positive"><i class="fas fa-caret-up"></i> +12% este mes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stat-premium-card courses">
+        <div class="card-bg-glow"></div>
+        <div class="card-content">
+          <div class="icon-circle"><i class="fas fa-laptop-code"></i></div>
+          <div class="info">
+            <span class="label">Cursos en Catálogo</span>
+            <h2 class="counter">{{ stats.totalCourses }}</h2>
+            <span class="trend neutral">Estable</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stat-premium-card certificates">
+        <div class="card-bg-glow"></div>
+        <div class="card-content">
+          <div class="icon-circle"><i class="fas fa-award"></i></div>
+          <div class="info">
+            <span class="label">Certificados Emitidos</span>
+            <h2 class="counter">{{ stats.certificates }}</h2>
+            <span class="trend positive"><i class="fas fa-caret-up"></i> +5.2%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-lg-8 mb-4">
+        <div class="premium-chart-container h-100">
+          <div class="chart-header">
+            <h3>Popularidad de Contenidos</h3>
+            <div class="chart-tabs">
+              <span class="tab-item active">Inscripciones</span>
+            </div>
+          </div>
+          <div class="popular-courses-v2">
+            <div class="course-rank-item" *ngFor="let course of stats.popularCourses; let i = index">
+              <div class="rank-number">0{{ i + 1 }}</div>
+              <div class="course-main-info">
+                <span class="name">{{ course.titulo }}</span>
+                <div class="visual-progress">
+                  <div class="bar-fill" [style.width.%]="(course.estudiantes / stats.totalUsers) * 100"></div>
+                </div>
+              </div>
+              <div class="stat-value">
+                <span class="val">{{ course.estudiantes }}</span>
+                <span class="unit">Alumnos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="activity-radial-card h-100">
+          <h3>Tasa de Éxito</h3>
+          <div class="radial-container">
+            <div class="radial-progress-mock">
+              <svg viewBox="0 0 36 36" class="circular-chart blue">
+                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="circle" [attr.stroke-dasharray]="((stats.certificates / stats.totalUsers) * 100) + ', 100'" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="18" y="20.35" class="percentage">{{ ((stats.certificates / stats.totalUsers) * 100) | number:'1.0-0' }}%</text>
+              </svg>
+            </div>
+          </div>
+          <p class="text-center text-muted px-4">Relación entre certificados emitidos y usuarios totales.</p>
+          <div class="quick-links mt-4">
+            <a routerLink="/admin/cursos" class="btn-action-outline">Gestionar Catálogo <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

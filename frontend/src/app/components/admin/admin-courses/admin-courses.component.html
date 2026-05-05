@@ -1,0 +1,205 @@
+<div class="courses-page animate-fade-in">
+  <div class="page-header d-flex justify-content-between align-items-center mb-5">
+    <div>
+      <h1 class="display-title">Academia <span class="text-primary">PRO</span></h1>
+      <p class="subtitle">Estructura, publica y supervisa el contenido educativo de la plataforma.</p>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-premium-add shadow-sm" (click)="openCreateModal()">
+        <div class="icon-wrap"><i class="fas fa-plus"></i></div>
+        <span>Nuevo Curso</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="premium-table-container">
+    <div class="loading-overlay" *ngIf="isLoading">
+      <div class="spinner-v2"></div>
+    </div>
+
+    <table class="table align-middle mb-0" *ngIf="!isLoading">
+      <thead>
+        <tr>
+          <th>Catálogo de Cursos</th>
+          <th>Especialidad</th>
+          <th>Comunidad</th>
+          <th>Estado Live</th>
+          <th class="text-end">Operaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let course of courses; let i = index" class="premium-row" [style.animation-delay]="(i * 0.05) + 's'">
+          <td>
+            <div class="d-flex align-items-center">
+              <div class="course-poster-v2" (click)="openEditModal(course)">
+                <img [src]="course.imagen" alt="" />
+                <div class="poster-overlay"><i class="fas fa-expand"></i></div>
+              </div>
+              <div class="ms-4">
+                <p class="course-title-v2 mb-1">{{ course.titulo }}</p>
+                <p class="course-desc-v2 mb-0">{{ course.descripcion | slice:0:70 }}...</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="spec-tag">{{ course.categoria }}</div>
+          </td>
+          <td>
+            <div class="stats-group-v2">
+              <div class="stat-pill">
+                <i class="fas fa-users"></i> {{ course.studentCount }}
+              </div>
+              <div class="stat-pill success">
+                <i class="fas fa-graduation-cap"></i> {{ course.completedCount }}
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="custom-status-switch">
+              <input 
+                type="checkbox" 
+                [id]="'switch-' + course._id"
+                [checked]="course.isActive" 
+                (change)="toggleStatus(course)">
+              <label [for]="'switch-' + course._id" class="switch-label">
+                <span class="switch-inner"></span>
+                <span class="switch-switch"></span>
+              </label>
+              <span class="status-label-v2" [class.active]="course.isActive">
+                {{ course.isActive ? 'Publicado' : 'Borrador' }}
+              </span>
+            </div>
+          </td>
+          <td class="text-end">
+            <div class="actions-group">
+              <button class="btn-action-v2 edit" (click)="openEditModal(course)" title="Modificar Contenido">
+                <i class="fas fa-pen-nib"></i>
+              </button>
+              <button class="btn-action-v2 delete" (click)="deleteCourse(course)" title="Eliminar del Sistema">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Create/Edit Modal -->
+  <div class="modal-overlay" *ngIf="isModalOpen">
+    <div class="modal-card wide animate-pop-in">
+      <div class="modal-header-v2">
+        <div class="title-wrap">
+          <span class="folder-label">{{ isEditing ? 'Edición de Contenido' : 'Nuevo Lanzamiento' }}</span>
+          <h3>{{ isEditing ? 'Actualizar Curso' : 'Configurar Nuevo Curso' }}</h3>
+        </div>
+        <button class="btn-close-v2" (click)="isModalOpen = false">&times;</button>
+      </div>
+      <div class="modal-body-v2">
+        <form (ngSubmit)="saveCourse()" #courseForm="ngForm">
+          <!-- Step 1: Basic Info -->
+          <div class="row g-4 mb-5">
+            <div class="col-md-7">
+              <div class="form-floating mb-4">
+                <input type="text" class="form-control premium-input" id="titulo" [(ngModel)]="currentCourse.titulo" name="titulo" placeholder="Título" required>
+                <label for="titulo">Nombre del Curso</label>
+              </div>
+              <div class="form-floating mb-4">
+                <textarea class="form-control premium-input" id="desc" style="height: 150px" [(ngModel)]="currentCourse.descripcion" name="descripcion" placeholder="Descripción" required></textarea>
+                <label for="desc">Descripción y Objetivos</label>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="form-floating mb-4">
+                <select class="form-select premium-input" id="cat" [(ngModel)]="currentCourse.categoria" name="categoria" required>
+                  <option value="Programación">Programación</option>
+                  <option value="Diseño">Diseño</option>
+                  <option value="Marketing">Marketing</option>
+                  <option value="Negocios">Negocios</option>
+                  <option value="Inglés">Inglés</option>
+                </select>
+                <label for="cat">Categoría Especializada</label>
+              </div>
+              <div class="form-floating mb-4">
+                <input type="text" class="form-control premium-input" id="img" [(ngModel)]="currentCourse.imagen" name="imagen" placeholder="Imagen" required>
+                <label for="img">URL de Portada (HD)</label>
+              </div>
+              <div class="preview-poster-card mb-0" *ngIf="currentCourse.imagen">
+                <img [src]="currentCourse.imagen" alt="Vista previa">
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2: Lessons Management (Only for creation for now) -->
+          <div class="lessons-builder" *ngIf="!isEditing">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <h4 class="section-title">Estructura del Programa (Lecciones)</h4>
+              <button type="button" class="btn btn-sm btn-outline-primary rounded-pill px-4" (click)="addLesson()">
+                <i class="fas fa-plus"></i> Agregar Lección
+              </button>
+            </div>
+
+            <div class="lesson-accordion">
+              <div class="lesson-item mb-4" *ngFor="let lesson of currentCourse.lessons; let li = index">
+                <div class="lesson-header-v2">
+                  <div class="d-flex align-items-center flex-grow-1">
+                    <span class="lesson-index">{{ li + 1 }}</span>
+                    <input type="text" class="form-control lesson-title-input" [(ngModel)]="lesson.titulo" [name]="'ltitle' + li" placeholder="Título de la lección..." required>
+                  </div>
+                  <button type="button" class="btn btn-link text-danger" (click)="removeLesson(li)">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+                
+                <div class="lesson-content-v2 p-4">
+                  <div class="mb-3">
+                    <label class="form-label small fw-bold text-muted text-uppercase">Contenido / Video URL</label>
+                    <textarea class="form-control premium-input-sm" [(ngModel)]="lesson.contenido" [name]="'lcont' + li" placeholder="Pega el contenido o la URL del video aquí..." required></textarea>
+                  </div>
+
+                  <div class="questions-zone mt-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                      <span class="small fw-bold text-primary"><i class="fas fa-tasks"></i> BANCO DE PREGUNTAS (EXAMEN)</span>
+                      <button type="button" class="btn btn-xs btn-primary-light" (click)="addQuestion(li)">
+                        <i class="fas fa-plus"></i> Pregunta
+                      </button>
+                    </div>
+
+                    <div class="question-card-v2 mb-3" *ngFor="let q of lesson.questions; let qi = index">
+                      <div class="d-flex gap-3 mb-3">
+                        <input type="text" class="form-control q-input" [(ngModel)]="q.pregunta" [name]="'l' + li + 'q' + qi" placeholder="Pregunta para el examen final..." required>
+                        <button type="button" class="btn btn-link text-muted" (click)="removeQuestion(li, qi)"><i class="fas fa-trash-alt"></i></button>
+                      </div>
+                      <div class="row g-2">
+                        <div class="col-md-6" *ngFor="let opt of q.opciones; let oi = index; trackBy: trackByFn">
+                          <div class="input-group input-group-sm">
+                            <div class="input-group-text">
+                              <input class="form-check-input mt-0" type="radio" [name]="'l' + li + 'q' + qi + 'correct'" [value]="oi" [(ngModel)]="q.respuestaCorrecta">
+                            </div>
+                            <input type="text" class="form-control" [(ngModel)]="q.opciones[oi]" [name]="'l' + li + 'q' + qi + 'opt' + oi" placeholder="Opción {{ oi + 1 }}" required>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div *ngIf="currentCourse.lessons.length === 0" class="empty-lessons-state">
+              <i class="fas fa-list-ol"></i>
+              <p>Aún no has agregado lecciones. Un curso necesita al menos una lección para ser publicado.</p>
+            </div>
+          </div>
+
+          <div class="modal-actions-v2 mt-5 pt-4 border-top d-flex justify-content-end gap-3">
+            <button type="button" class="btn btn-cancel-v2" (click)="isModalOpen = false">Cancelar</button>
+            <button type="submit" class="btn btn-publish-v2" [disabled]="!courseForm.form.valid || (!isEditing && currentCourse.lessons.length === 0)">
+              {{ isEditing ? 'Guardar Cambios' : 'Crear Curso Completo' }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

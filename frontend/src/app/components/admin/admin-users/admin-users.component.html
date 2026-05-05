@@ -1,0 +1,177 @@
+<div class="users-page animate-fade-in">
+  <div class="page-header d-flex justify-content-between align-items-center mb-5">
+    <div class="header-content">
+      <h1 class="display-title">Comunidad <span class="text-primary">Capacítate</span></h1>
+      <p class="subtitle">Administra los accesos, roles y el ecosistema de aprendizaje.</p>
+    </div>
+    <div class="header-stats-mini d-none d-md-flex">
+      <div class="mini-stat">
+        <span class="val">{{ filteredUsers.length }}</span>
+        <span class="lbl">Resultados</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filters Bar -->
+  <div class="premium-filters mb-4">
+    <div class="row g-3 align-items-center">
+      <div class="col-md-7">
+        <div class="premium-search">
+          <i class="fas fa-search"></i>
+          <input 
+            type="text" 
+            [(ngModel)]="searchTerm" 
+            (input)="applyFilters()" 
+            placeholder="Buscar por nombre, correo o ID...">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="premium-select-wrapper">
+          <select class="form-select premium-select" [(ngModel)]="selectedRole" (change)="applyFilters()">
+            <option value="">Todos los Roles</option>
+            <option value="user">Estudiantes</option>
+            <option value="admin">Administradores</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-refresh-v2 w-100" (click)="fetchUsers()">
+          <i class="fas fa-sync"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Users Table -->
+  <div class="premium-table-container">
+    <div class="loading-overlay" *ngIf="isLoading">
+      <div class="spinner-v2"></div>
+    </div>
+
+    <table class="table align-middle mb-0" *ngIf="!isLoading">
+      <thead>
+        <tr>
+          <th>Identidad Estudiante</th>
+          <th>Rango / Privilegios</th>
+          <th>Antigüedad</th>
+          <th class="text-end">Operaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of filteredUsers; let i = index" class="premium-row" [style.animation-delay]="(i * 0.05) + 's'">
+          <td>
+            <div class="d-flex align-items-center">
+              <div class="user-avatar-v2" [ngClass]="{'has-img': user.fotoPerfil}">
+                <img *ngIf="user.fotoPerfil" [src]="'http://localhost:5000' + user.fotoPerfil" alt="" />
+                <span *ngIf="!user.fotoPerfil">{{ user.nombre.charAt(0) }}</span>
+                <div class="status-dot"></div>
+              </div>
+              <div class="ms-3">
+                <p class="user-name mb-0">{{ user.nombre }}</p>
+                <p class="user-email mb-0">{{ user.email }}</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="role-badge-v2" [ngClass]="user.rol">
+              <i class="fas" [ngClass]="user.rol === 'admin' ? 'fa-shield-alt' : 'fa-user'"></i>
+              <span>{{ user.rol === 'admin' ? 'Admin' : 'Estudiante' }}</span>
+            </div>
+          </td>
+          <td>
+            <span class="date-text">{{ user.createdAt | date:'longDate' }}</span>
+          </td>
+          <td class="text-end">
+            <div class="actions-group">
+              <button class="btn-action-v2 view" (click)="viewDetails(user)" title="Expediente Académico">
+                <i class="fas fa-id-card"></i>
+              </button>
+              <button class="btn-action-v2 role" (click)="toggleRole(user)" title="Cambiar Jerarquía">
+                <i class="fas fa-user-cog"></i>
+              </button>
+              <button class="btn-action-v2 delete" (click)="deleteUser(user)" title="Revocar Acceso">
+                <i class="fas fa-user-minus"></i>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div *ngIf="!isLoading && filteredUsers.length === 0" class="premium-empty-state">
+      <div class="empty-icon"><i class="fas fa-users-slash"></i></div>
+      <h3>Sin coincidencias</h3>
+      <p>No encontramos usuarios que coincidan con "{{ searchTerm }}"</p>
+    </div>
+  </div>
+
+  <!-- User Detail Modal (Academic Folder) -->
+  <div class="modal-overlay" *ngIf="isDetailModalOpen">
+    <div class="modal-card wide animate-pop-in academic-folder">
+      <div class="modal-header-v2">
+        <div class="title-wrap">
+          <span class="folder-label">Expediente Académico</span>
+          <h3>Ficha de Estudiante</h3>
+        </div>
+        <button class="btn-close-v2" (click)="closeModals()">&times;</button>
+      </div>
+      
+      <div class="modal-body-v2" *ngIf="selectedUser">
+        <div class="row">
+          <div class="col-md-4 border-end">
+            <div class="student-profile-side">
+              <div class="avatar-giant">
+                <img *ngIf="selectedUser.user.fotoPerfil" [src]="'http://localhost:5000' + selectedUser.user.fotoPerfil">
+                <div *ngIf="!selectedUser.user.fotoPerfil" class="initials-giant">{{ selectedUser.user.nombre.charAt(0) }}</div>
+              </div>
+              <h4 class="mt-4">{{ selectedUser.user.nombre }}</h4>
+              <p class="email-tag">{{ selectedUser.user.email }}</p>
+              
+              <div class="profile-stats-grid mt-4">
+                <div class="p-stat">
+                  <span class="v">{{ selectedUser.progress.length }}</span>
+                  <span class="l">Inscritos</span>
+                </div>
+                <div class="p-stat">
+                  <span class="v text-success">{{ getCompletedCount() }}</span>
+                  <span class="l">Completados</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-8">
+            <div class="progress-catalog ps-3">
+              <h5 class="section-title mb-4">Progreso en Cursos</h5>
+              <div class="course-progress-list">
+                <div class="course-progress-card" *ngFor="let prog of selectedUser.progress">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="c-title">{{ prog.curso?.titulo }}</span>
+                    <span class="c-percent" [class.complete]="prog.finalExamenPasado">
+                      {{ prog.finalExamenPasado ? 'Finalizado' : (prog.porcentaje + '%') }}
+                    </span>
+                  </div>
+                  <div class="v-progress-bar">
+                    <div class="v-fill" [style.width.%]="prog.porcentaje" [class.complete]="prog.finalExamenPasado"></div>
+                  </div>
+                  <div class="d-flex justify-content-between mt-3 small text-muted align-items-center">
+                    <span>Lecciones: {{ prog.leccionesCompletadas?.length }} completadas</span>
+                    <button *ngIf="prog.finalExamenPasado" class="btn btn-sm btn-success-light" (click)="downloadCertificate(prog.curso?._id, prog.curso?.titulo)">
+                      <i class="fas fa-download"></i> Certificado
+                    </button>
+                    <span *ngIf="!prog.finalExamenPasado" class="badge bg-light text-muted">En curso</span>
+                  </div>
+                </div>
+                
+                <div *ngIf="selectedUser.progress.length === 0" class="empty-progress">
+                  <i class="fas fa-graduation-cap"></i>
+                  <p>Aún no tiene actividad académica registrada.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

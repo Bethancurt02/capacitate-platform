@@ -1,0 +1,255 @@
+<div class="course-detail-container notranslate" *ngIf="!isLoading && course">
+  
+  <!-- Header del Curso -->
+  <div class="course-header">
+    <div class="header-info">
+      <a routerLink="/dashboard/cursos" class="back-link">
+        <i class="fas fa-chevron-left"></i> Volver a Cursos
+      </a>
+      <h2>{{ course.titulo }}</h2>
+      <p>{{ course.descripcion }}</p>
+    </div>
+    <div class="progress-info">
+      <div class="progress-header">
+        <span>Tu Progreso</span>
+        <span class="percentage">{{ progress?.porcentaje || 0 }}%</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" 
+             [style.width.%]="(progress?.porcentaje || 0) > 0 && (progress?.porcentaje || 0) < 3 ? 3 : (progress?.porcentaje || 0)"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="course-content-layout">
+    
+    <!-- Sidebar de Lecciones -->
+    <div class="lessons-sidebar">
+      <div class="sidebar-header">
+        <div class="icon-box">
+          <i class="fas fa-book-open"></i>
+        </div>
+        <h3>Contenido</h3>
+      </div>
+      
+      <ul class="lesson-list">
+        <!-- Introducción -->
+        <li [class.active]="showIntro" (click)="viewIntro()" class="intro-item">
+          <div class="lesson-status">
+            <i class="fas fa-play-circle"></i>
+          </div>
+          <div class="lesson-title">Introducción al Curso</div>
+        </li>
+        
+        <div class="sidebar-divider"></div>
+
+        <li *ngFor="let lesson of lessons" 
+            [class.active]="activeLesson?._id === lesson._id"
+            [class.completed]="isLessonCompleted(lesson._id)"
+            [class.locked]="isLessonLocked(lesson)"
+            (click)="selectLesson(lesson)">
+          <div class="lesson-status">
+            <i class="fas fa-check-circle" *ngIf="isLessonCompleted(lesson._id)"></i>
+            <i class="far fa-circle" *ngIf="!isLessonCompleted(lesson._id) && !isLessonLocked(lesson)"></i>
+            <i class="fas fa-lock" *ngIf="isLessonLocked(lesson)"></i>
+          </div>
+          <div class="lesson-title">{{ lesson.titulo }}</div>
+        </li>
+      </ul>
+
+      <!-- Examen Final en Sidebar -->
+      <div class="exam-section" *ngIf="canTakeFinalExam() || finalExamPassed">
+        <div class="sidebar-divider"></div>
+        <button 
+          *ngIf="!finalExamPassed" 
+          class="btn-exam" 
+          (click)="startFinalExam()"
+          [class.active]="showFinalExam">
+          <i class="fas fa-file-alt"></i> Examen Final
+        </button>
+        
+        <div class="completed-badge" *ngIf="finalExamPassed">
+          <i class="fas fa-award"></i> Graduado
+        </div>
+      </div>
+    </div>
+
+    <!-- Área Principal (Visor) -->
+    <div class="viewer-area">
+      
+      <!-- Pantalla de Éxito al Completar el Curso -->
+      <div class="completion-screen" *ngIf="finalExamPassed">
+        <div class="confetti-icon">🏆</div>
+        <h1>¡Felicidades, {{authService.currentUserValue?.nombre}}!</h1>
+        <p>Has completado satisfactoriamente el <strong>{{course.titulo}}</strong>. Tu perseverancia ha dado sus frutos.</p>
+        
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-value">{{lessons.length}}</span>
+            <span class="stat-label">Lecciones</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">100%</span>
+            <span class="stat-label">Aprobado</span>
+          </div>
+        </div>
+
+        <div class="certificate-action">
+          <h3>Tu logro está listo</h3>
+          <p>Descarga tu certificado y compártelo con el mundo.</p>
+          
+          <div class="action-buttons">
+            <button class="btn-download-cert" (click)="downloadCertificate()">
+              <i class="fas fa-file-pdf"></i> Descargar Certificado
+            </button>
+            <button class="btn-reset-course" (click)="resetCourse()">
+              <i class="fas fa-redo"></i> Reiniciar Curso
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vista para Invitados (No Logueados) -->
+      <div class="guest-viewer" *ngIf="!isLoggedIn">
+        <div class="course-hero-img">
+          <img [src]="getCourseImage(course.imagen)" 
+               [alt]="course.titulo"
+               (error)="$any($event.target).src = 'assets/default-course.png'">
+        </div>
+        <div class="course-info-card">
+          <h2>Sobre este curso</h2>
+          <div class="course-long-desc" [innerHTML]="course.descripcion"></div>
+          
+          <div class="enroll-prompt">
+            <p>Inicia sesión para acceder a todo el contenido y certificar tus conocimientos.</p>
+            <div class="prompt-actions">
+              <button routerLink="/login" class="btn-primary">Iniciar Sesión</button>
+              <button routerLink="/register" class="btn-secondary">Registrarse</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video de Introducción -->
+      <div class="intro-viewer" *ngIf="isLoggedIn && showIntro && !finalExamPassed">
+        <h2>Bienvenido al curso</h2>
+        <div class="video-container">
+          <iframe 
+            [src]="course.videoIntro | safe" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="intro-actions">
+          <button (click)="selectLesson(lessons[0])" class="btn-primary" *ngIf="lessons.length > 0">
+            Comenzar Aprendizaje <i class="fas fa-play"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Contenido de Lección -->
+      <div class="lesson-viewer" *ngIf="isLoggedIn && activeLesson && !showFinalExam && !finalExamPassed">
+        <div class="lesson-header">
+          <span class="lesson-meta">LECCIÓN {{activeLesson.orden}} DE {{lessons.length}}</span>
+          <h2>{{ activeLesson.titulo }}</h2>
+        </div>
+        
+        <div class="lesson-body" [innerHTML]="activeLesson.contenido"></div>
+
+        <!-- Quiz Section -->
+        <div class="quiz-section" *ngIf="activeQuestions.length > 0">
+          <div class="quiz-header">
+            <div class="icon-circle">
+              <i class="fas fa-check-double"></i>
+            </div>
+            <div>
+              <h3>Evaluación de Módulo</h3>
+              <p>Selecciona la respuesta correcta para continuar con el siguiente tema.</p>
+            </div>
+          </div>
+          
+          <div class="question-card" *ngFor="let q of activeQuestions; let i = index" [attr.data-index]="i + 1">
+            <p class="question-text">{{ q.pregunta }}</p>
+            <div class="options">
+              <label class="option-label" *ngFor="let option of q.opciones; let optIndex = index" [class.selected]="userAnswers[q._id] === optIndex">
+                <input type="radio" 
+                       [name]="'question_' + q._id" 
+                       [value]="optIndex" 
+                       [(ngModel)]="userAnswers[q._id]"
+                       [disabled]="quizPassed">
+                <span>{{ option }}</span>
+              </label>
+            </div>
+          </div>
+
+          <button class="btn-submit-quiz" (click)="submitQuiz()" *ngIf="!quizPassed" [disabled]="Object.keys(userAnswers).length !== activeQuestions.length">
+            Enviar Respuestas <i class="fas fa-chevron-right"></i>
+          </button>
+
+          <div class="quiz-feedback" *ngIf="quizSubmitted">
+            <div class="success-msg" *ngIf="quizPassed">
+              <div class="msg-content">
+                <i class="fas fa-stars"></i>
+                <div>
+                  <h4>¡Correcto!</h4>
+                  <p>Has superado esta sección del curso.</p>
+                </div>
+              </div>
+              <button class="btn-next-step" (click)="goToNextLesson()">
+                Siguiente Lección <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+            
+            <div class="error-msg" *ngIf="!quizPassed">
+              <i class="fas fa-times"></i>
+              <p>Revisa tus respuestas y vuelve a intentarlo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Examen Final -->
+      <div class="exam-viewer" *ngIf="showFinalExam && !finalExamPassed">
+        <div class="exam-header">
+          <div class="icon-circle">
+            <i class="fas fa-medal"></i>
+          </div>
+          <div>
+            <h2>Examen de Graduación</h2>
+            <p>Supera esta prueba definitiva para obtener tu certificación oficial.</p>
+          </div>
+        </div>
+        
+        <div class="question-card" *ngFor="let q of activeQuestions; let i = index" [attr.data-index]="i + 1">
+            <p class="question-text">{{ q.pregunta }}</p>
+            <div class="options">
+              <label class="option-label" *ngFor="let option of q.opciones; let optIndex = index" [class.selected]="userAnswers[q._id] === optIndex">
+                <input type="radio" 
+                       [name]="'exam_' + q._id" 
+                       [value]="optIndex" 
+                       [(ngModel)]="userAnswers[q._id]">
+                <span>{{ option }}</span>
+              </label>
+            </div>
+          </div>
+
+          <button class="btn-submit-quiz btn-final-exam" (click)="submitFinalExam()" *ngIf="!quizSubmitted">
+            Finalizar y Obtener Título <i class="fas fa-flag-checkered"></i>
+          </button>
+
+          <div class="quiz-feedback" *ngIf="quizSubmitted && !finalExamPassed">
+            <div class="error-msg">
+              <i class="fas fa-redo"></i>
+              <p>Puntaje insuficiente. Puedes repasar los temas y reintentar el examen.</p>
+            </div>
+          </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div *ngIf="isLoading" class="loader-container">
+  <div class="spinner"></div>
+</div>

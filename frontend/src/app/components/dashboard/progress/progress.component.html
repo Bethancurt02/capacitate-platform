@@ -1,0 +1,48 @@
+<div class="progress-container">
+  <div class="header">
+    <h2>Mi Progreso</h2>
+    <p>Haz un seguimiento de tus cursos en curso y completados.</p>
+  </div>
+
+  <div *ngIf="isLoading" class="loader-container">
+    <div class="spinner"></div>
+    <p>Cargando tu progreso...</p>
+  </div>
+
+  <div *ngIf="!isLoading && progresses.length === 0" class="empty-state">
+    <div class="empty-icon">📈</div>
+    <h3>Aún no has iniciado ningún curso</h3>
+    <p>Explora nuestro catálogo y da el primer paso hacia tu nueva carrera.</p>
+    <a routerLink="/dashboard/cursos" class="btn-primary">Ver Cursos</a>
+  </div>
+
+  <div class="progress-grid" *ngIf="!isLoading && progresses.length > 0">
+    <div class="progress-card" *ngFor="let p of progresses">
+      <div class="card-header">
+        <h3>{{ p.curso?.titulo }}</h3>
+        <span class="status-badge" [class.completed]="p.examenAprobado">
+          {{ p.examenAprobado ? 'Completado' : 'En Progreso' }}
+        </span>
+      </div>
+      
+      <div class="progress-section">
+        <div class="progress-info">
+          <span>Avance general</span>
+          <span class="percentage">{{ p.porcentaje }}%</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" [style.width.%]="p.porcentaje"></div>
+        </div>
+      </div>
+
+      <div class="card-actions">
+        <a [routerLink]="['/dashboard/curso', p.curso?._id]" class="btn-continue" *ngIf="!p.examenAprobado">
+          Continuar Curso
+        </a>
+        <button class="btn-cert" *ngIf="p.examenAprobado" (click)="downloadCertificate(p.curso?._id, p.curso?.titulo)">
+          Descargar Certificado
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

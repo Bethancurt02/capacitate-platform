@@ -1,0 +1,189 @@
+.progress-container {
+  .header {
+    margin-bottom: 30px;
+    h2 {
+      font-size: 2rem;
+      color: #1e293b;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #64748b;
+      font-size: 1.1rem;
+    }
+  }
+
+  .empty-state {
+    background: white;
+    border-radius: 16px;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+
+    .empty-icon {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: #1e293b;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #64748b;
+      margin-bottom: 24px;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: #3b82f6;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+
+      &:hover {
+        background: #2563eb;
+      }
+    }
+  }
+
+  .progress-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 24px;
+
+    .progress-card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+      }
+
+      .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 24px;
+
+        h3 {
+          font-size: 1.2rem;
+          color: #1e293b;
+          margin: 0;
+          flex: 1;
+          padding-right: 12px;
+        }
+
+        .status-badge {
+          background: #fef3c7;
+          color: #d97706;
+          padding: 4px 10px;
+          border-radius: 9999px;
+          font-size: 0.75rem;
+          font-weight: 600;
+          white-space: nowrap;
+
+          &.completed {
+            background: #dcfce3;
+            color: #16a34a;
+          }
+        }
+      }
+
+      .progress-section {
+        margin-bottom: 24px;
+
+        .progress-info {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 8px;
+          font-size: 0.9rem;
+          color: #64748b;
+
+          .percentage {
+            font-weight: 600;
+            color: #1e293b;
+          }
+        }
+
+        .progress-bar-bg {
+          height: 8px;
+          background: #e2e8f0;
+          border-radius: 4px;
+          overflow: hidden;
+
+          .progress-bar-fill {
+            height: 100%;
+            background: #3b82f6;
+            border-radius: 4px;
+            transition: width 0.5s ease;
+          }
+        }
+      }
+
+      .card-actions {
+        .btn-continue, .btn-cert {
+          display: block;
+          width: 100%;
+          text-align: center;
+          padding: 12px;
+          border-radius: 8px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: background 0.2s;
+          border: none;
+          text-decoration: none;
+        }
+
+        .btn-continue {
+          background: #f1f5f9;
+          color: #3b82f6;
+          border: 1px solid #e2e8f0;
+
+          &:hover {
+            background: #e0f2fe;
+          }
+        }
+
+        .btn-cert {
+          background: #8b5cf6;
+          color: white;
+
+          &:hover {
+            background: #7c3aed;
+          }
+        }
+      }
+    }
+  }
+
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    
+    .spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      border-top: 4px solid #3b82f6;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,39 @@
+<div class="home-container" *ngIf="user$ | async as user">
+  
+  <div class="welcome-banner">
+    <div class="banner-content">
+      <h1>¡Hola, {{ user.nombre }}!</h1>
+      <p>Es un gran día para aprender algo nuevo. Descubre nuestros cursos y mejora tus habilidades profesionales.</p>
+      <a routerLink="/dashboard/cursos" class="btn-primary">Explorar Cursos</a>
+    </div>
+    <div class="banner-image">
+      <!-- Illustrative placeholder -->
+      <div class="illustration">🚀</div>
+    </div>
+  </div>
+
+  <div class="quick-stats">
+    <div class="stat-card">
+      <div class="icon-wrapper bg-blue">📚</div>
+      <div class="stat-info">
+        <h3>Cursos Disponibles</h3>
+        <p>12 cursos en catálogo</p>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="icon-wrapper bg-green">🎓</div>
+      <div class="stat-info">
+        <h3>Certificados</h3>
+        <p>Generación instantánea QR</p>
+      </div>
+    </div>
+    <div class="stat-card" routerLink="/dashboard/progreso" style="cursor: pointer;">
+      <div class="icon-wrapper bg-purple">📈</div>
+      <div class="stat-info">
+        <h3>Mi Progreso</h3>
+        <p>Continúa donde lo dejaste</p>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,33 @@
+<div class="courses-container">
+  <div class="header">
+    <h2>Catálogo de Cursos</h2>
+    <p>Encuentra el curso ideal para tu desarrollo profesional.</p>
+  </div>
+
+  <div *ngIf="isLoading" class="loader-container">
+    <div class="spinner"></div>
+    <p>Cargando cursos...</p>
+  </div>
+
+  <div *ngIf="!isLoading && courses.length === 0" class="empty-state">
+    <p>No hay cursos disponibles en este momento.</p>
+  </div>
+
+  <div class="courses-grid" *ngIf="!isLoading && courses.length > 0">
+    <div class="course-card" *ngFor="let course of courses">
+      <div class="course-image">
+        <img [src]="getCourseImage(course.imagen)" 
+             [alt]="course.titulo"
+             (error)="$any($event.target).src = 'assets/default-course.png'">
+      </div>
+      <div class="course-content">
+        <span class="category-badge">{{ course.categoria }}</span>
+        <h3>{{ course.titulo }}</h3>
+        <p>{{ course.descripcion }}</p>
+        <div class="card-footer">
+          <a [routerLink]="['/dashboard/curso', course._id]" class="btn-primary">Ver Curso</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
