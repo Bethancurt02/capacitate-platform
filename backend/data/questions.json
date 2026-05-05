@@ -1,0 +1,3362 @@
+[
+  {
+    "_id": "69f94d819fff2eca370dc4e2",
+    "leccion": "69f94d819fff2eca370dc4e1",
+    "pregunta": "¿Qué es un organigrama?",
+    "opciones": [
+      "Un tipo de archivo",
+      "Representación gráfica de la estructura de una empresa",
+      "Un software"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.982Z",
+    "updatedAt": "2026-05-05T01:53:05.982Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4e3",
+    "leccion": "69f94d819fff2eca370dc4e1",
+    "pregunta": "¿Qué es la comunicación asertiva?",
+    "opciones": [
+      "Hablar fuerte",
+      "Expresar ideas de forma clara y respetuosa",
+      "No hablar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.983Z",
+    "updatedAt": "2026-05-05T01:53:05.983Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4e4",
+    "leccion": "69f94d819fff2eca370dc4e1",
+    "pregunta": "Función de la agenda:",
+    "opciones": [
+      "Organizar el tiempo y citas",
+      "Escribir cuentos",
+      "Dibujar"
+    ],
+    "respuestaCorrecta": 0,
+    "createdAt": "2026-05-05T01:53:05.984Z",
+    "updatedAt": "2026-05-05T01:53:05.984Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4e6",
+    "leccion": "69f94d819fff2eca370dc4e5",
+    "pregunta": "¿Qué es un archivo activo?",
+    "opciones": [
+      "Documentos de uso diario",
+      "Papeles viejos",
+      "Basura"
+    ],
+    "respuestaCorrecta": 0,
+    "createdAt": "2026-05-05T01:53:05.986Z",
+    "updatedAt": "2026-05-05T01:53:05.986Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4e7",
+    "leccion": "69f94d819fff2eca370dc4e5",
+    "pregunta": "Orden alfabético de \"Carlos\" y \"Carla\":",
+    "opciones": [
+      "Carlos va primero",
+      "Carla va primero",
+      "Son iguales"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.986Z",
+    "updatedAt": "2026-05-05T01:53:05.986Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4e8",
+    "leccion": "69f94d819fff2eca370dc4e5",
+    "pregunta": "¿Para qué sirve el foliado?",
+    "opciones": [
+      "Dar brillo",
+      "Numerar hojas correlativamente",
+      "Garantizar que no se pierdan"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.987Z",
+    "updatedAt": "2026-05-05T01:53:05.987Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4ea",
+    "leccion": "69f94d819fff2eca370dc4e9",
+    "pregunta": "¿Qué es el lenguaje no verbal?",
+    "opciones": [
+      "Hablar por señas",
+      "Gestos y posturas corporales",
+      "Escribir correos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.989Z",
+    "updatedAt": "2026-05-05T01:53:05.989Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4eb",
+    "leccion": "69f94d819fff2eca370dc4e9",
+    "pregunta": "Primer paso al contestar el teléfono:",
+    "opciones": [
+      "¿Quién es?",
+      "Saludo y nombre de la empresa",
+      "Diga"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.991Z",
+    "updatedAt": "2026-05-05T01:53:05.991Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4ec",
+    "leccion": "69f94d819fff2eca370dc4e9",
+    "pregunta": "¿Qué es la empatía?",
+    "opciones": [
+      "Sentir lástima",
+      "Ponerse en el lugar del otro",
+      "Ser amable"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.992Z",
+    "updatedAt": "2026-05-05T01:53:05.992Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4ee",
+    "leccion": "69f94d819fff2eca370dc4ed",
+    "pregunta": "¿Cuál es un dispositivo de entrada?",
+    "opciones": [
+      "Impresora",
+      "Monitor",
+      "Teclado"
+    ],
+    "respuestaCorrecta": 2,
+    "createdAt": "2026-05-05T01:53:05.994Z",
+    "updatedAt": "2026-05-05T01:53:05.994Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4ef",
+    "leccion": "69f94d819fff2eca370dc4ed",
+    "pregunta": "Atajo para copiar en Windows:",
+    "opciones": [
+      "Ctrl+V",
+      "Ctrl+C",
+      "Ctrl+X"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.994Z",
+    "updatedAt": "2026-05-05T01:53:05.994Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4f0",
+    "leccion": "69f94d819fff2eca370dc4ed",
+    "pregunta": "¿Qué es el hardware?",
+    "opciones": [
+      "Programas",
+      "Componentes físicos",
+      "Internet"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.995Z",
+    "updatedAt": "2026-05-05T01:53:05.995Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4f2",
+    "leccion": "69f94d819fff2eca370dc4f1",
+    "pregunta": "¿Qué es el secreto profesional?",
+    "opciones": [
+      "Contar secretos",
+      "Deber de reserva sobre información del cliente",
+      "Mentir"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.997Z",
+    "updatedAt": "2026-05-05T01:53:05.997Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4f3",
+    "leccion": "69f94d819fff2eca370dc4f1",
+    "pregunta": "¿Qué es la puntualidad?",
+    "opciones": [
+      "Llegar tarde",
+      "Disciplina de estar a tiempo",
+      "Llegar cuando uno pueda"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.998Z",
+    "updatedAt": "2026-05-05T01:53:05.998Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4f4",
+    "leccion": "69f94d819fff2eca370dc4f1",
+    "pregunta": "¿Qué es el trabajo en equipo?",
+    "opciones": [
+      "Hacerlo todo uno solo",
+      "Colaboración para un fin común",
+      "Competir"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.998Z",
+    "updatedAt": "2026-05-05T01:53:05.998Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4f5",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "pregunta": "¿Cómo garantiza la ética la confidencialidad en archivos?",
+    "opciones": [
+      "No afecta",
+      "Mediante el secreto profesional y manejo seguro",
+      "Haciendo el proceso más lento"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:05.999Z",
+    "updatedAt": "2026-05-05T01:53:05.999Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4f6",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "pregunta": "En atención al cliente, ante un fallo técnico, ¿qué debe hacer?",
+    "opciones": [
+      "Colgar",
+      "Mantener la calma y registrar manualmente",
+      "Gritar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.000Z",
+    "updatedAt": "2026-05-05T01:53:06.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4f7",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "pregunta": "¿Cuál es la base de una buena comunicación administrativa?",
+    "opciones": [
+      "Tener un buen PC",
+      "La asertividad y claridad en el mensaje",
+      "Saber inglés"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.000Z",
+    "updatedAt": "2026-05-05T01:53:06.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4f8",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "pregunta": "¿Qué documento define la jerarquía de la empresa?",
+    "opciones": [
+      "La factura",
+      "El organigrama",
+      "El recibo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.001Z",
+    "updatedAt": "2026-05-05T01:53:06.001Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4f9",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "pregunta": "¿Para qué sirve el foliado en la documentación?",
+    "opciones": [
+      "Dar brillo",
+      "Mantener el orden y evitar pérdidas de hojas",
+      "Para vender papel"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.002Z",
+    "updatedAt": "2026-05-05T01:53:06.002Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4fc",
+    "leccion": "69f94d829fff2eca370dc4fb",
+    "pregunta": "¿Qué es la CPU?",
+    "opciones": [
+      "Monitor",
+      "Procesador central",
+      "Memoria USB"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.006Z",
+    "updatedAt": "2026-05-05T01:53:06.006Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4fd",
+    "leccion": "69f94d829fff2eca370dc4fb",
+    "pregunta": "¿Qué es el software de sistema?",
+    "opciones": [
+      "Office",
+      "Windows/Linux",
+      "Navegador"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.009Z",
+    "updatedAt": "2026-05-05T01:53:06.009Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4fe",
+    "leccion": "69f94d829fff2eca370dc4fb",
+    "pregunta": "¿Para qué sirve la RAM?",
+    "opciones": [
+      "Guardar fotos",
+      "Memoria de acceso rápido temporal",
+      "Enfriar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.010Z",
+    "updatedAt": "2026-05-05T01:53:06.010Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc500",
+    "leccion": "69f94d829fff2eca370dc4ff",
+    "pregunta": "¿Qué es una carpeta?",
+    "opciones": [
+      "Un archivo",
+      "Contenedor de archivos",
+      "Un virus"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.011Z",
+    "updatedAt": "2026-05-05T01:53:06.011Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc501",
+    "leccion": "69f94d829fff2eca370dc4ff",
+    "pregunta": "Función de la papelera:",
+    "opciones": [
+      "Borrado total",
+      "Almacén temporal de borrados",
+      "Crear archivos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.012Z",
+    "updatedAt": "2026-05-05T01:53:06.012Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc502",
+    "leccion": "69f94d829fff2eca370dc4ff",
+    "pregunta": "¿Qué es el escritorio?",
+    "opciones": [
+      "Mueble",
+      "Interfaz principal de usuario",
+      "Teclado"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.013Z",
+    "updatedAt": "2026-05-05T01:53:06.013Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc504",
+    "leccion": "69f94d829fff2eca370dc503",
+    "pregunta": "¿Qué es una URL?",
+    "opciones": [
+      "Un correo",
+      "Dirección de un recurso en la web",
+      "Un buscador"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.014Z",
+    "updatedAt": "2026-05-05T01:53:06.014Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc505",
+    "leccion": "69f94d829fff2eca370dc503",
+    "pregunta": "¿Modo Incógnito?",
+    "opciones": [
+      "Ser invisible",
+      "No guardar historial localmente",
+      "Hackear"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.015Z",
+    "updatedAt": "2026-05-05T01:53:06.015Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc506",
+    "leccion": "69f94d829fff2eca370dc503",
+    "pregunta": "¿Qué es Wi-Fi?",
+    "opciones": [
+      "Internet por cable",
+      "Conexión inalámbrica",
+      "Satélite"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.016Z",
+    "updatedAt": "2026-05-05T01:53:06.016Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc508",
+    "leccion": "69f94d829fff2eca370dc507",
+    "pregunta": "¿Qué es Phishing?",
+    "opciones": [
+      "Pescar",
+      "Estafa para robar datos",
+      "Juego"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.017Z",
+    "updatedAt": "2026-05-05T01:53:06.017Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc509",
+    "leccion": "69f94d829fff2eca370dc507",
+    "pregunta": "¿Para qué sirve un Firewall?",
+    "opciones": [
+      "Fuego",
+      "Controlar tráfico de red",
+      "Velocidad"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.018Z",
+    "updatedAt": "2026-05-05T01:53:06.018Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc50a",
+    "leccion": "69f94d829fff2eca370dc507",
+    "pregunta": "¿Qué es Malware?",
+    "opciones": [
+      "Bueno",
+      "Software malicioso",
+      "Mouse"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.018Z",
+    "updatedAt": "2026-05-05T01:53:06.018Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc50c",
+    "leccion": "69f94d829fff2eca370dc50b",
+    "pregunta": "¿Celda en Excel?",
+    "opciones": [
+      "Cuarto",
+      "Intersección fila/columna",
+      "Botón"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.020Z",
+    "updatedAt": "2026-05-05T01:53:06.020Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc50d",
+    "leccion": "69f94d829fff2eca370dc50b",
+    "pregunta": "¿PowerPoint?",
+    "opciones": [
+      "Tablas",
+      "Presentaciones visuales",
+      "Libros"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.021Z",
+    "updatedAt": "2026-05-05T01:53:06.021Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc50e",
+    "leccion": "69f94d829fff2eca370dc50b",
+    "pregunta": "¿Sangría en Word?",
+    "opciones": [
+      "Bebida",
+      "Espacio entre margen y texto",
+      "Error"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.021Z",
+    "updatedAt": "2026-05-05T01:53:06.021Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc50f",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "pregunta": "¿Cómo interactúan el hardware y el software?",
+    "opciones": [
+      "No se necesitan",
+      "El hardware ejecuta las órdenes del software",
+      "Son lo mismo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.022Z",
+    "updatedAt": "2026-05-05T01:53:06.022Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc510",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "pregunta": "¿Cuál es la función principal de un Sistema Operativo?",
+    "opciones": [
+      "Dibujar",
+      "Gestionar recursos de hardware y aplicaciones",
+      "Ver videos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.024Z",
+    "updatedAt": "2026-05-05T01:53:06.024Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc511",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "pregunta": "¿Qué es la nube (Cloud Computing)?",
+    "opciones": [
+      "Algo que llueve",
+      "Servicios de computación por internet",
+      "Disco duro físico"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.026Z",
+    "updatedAt": "2026-05-05T01:53:06.026Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc512",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "pregunta": "¿Qué mide los Gigabytes?",
+    "opciones": [
+      "Peso",
+      "Capacidad de almacenamiento",
+      "Velocidad"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.027Z",
+    "updatedAt": "2026-05-05T01:53:06.027Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc513",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "pregunta": "En Excel, ¿qué es lo más importante para cálculos?",
+    "opciones": [
+      "El color",
+      "Las fórmulas y funciones",
+      "El tamaño de letra"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.028Z",
+    "updatedAt": "2026-05-05T01:53:06.028Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc516",
+    "leccion": "69f94d829fff2eca370dc515",
+    "pregunta": "¿Qué es el ángulo de proyección?",
+    "opciones": [
+      "La luz",
+      "La elevación del cabello al cortar",
+      "El precio"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.030Z",
+    "updatedAt": "2026-05-05T01:53:06.030Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc517",
+    "leccion": "69f94d829fff2eca370dc515",
+    "pregunta": "Herramienta para degrafilado:",
+    "opciones": [
+      "Peine",
+      "Tijera de entresacar",
+      "Plancha"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.031Z",
+    "updatedAt": "2026-05-05T01:53:06.031Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc518",
+    "leccion": "69f94d829fff2eca370dc515",
+    "pregunta": "¿Qué es un corte bob?",
+    "opciones": [
+      "Corte largo",
+      "Corte a la altura de la mandíbula",
+      "Corte rapado"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.032Z",
+    "updatedAt": "2026-05-05T01:53:06.032Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc51a",
+    "leccion": "69f94d829fff2eca370dc519",
+    "pregunta": "¿Qué son los colores primarios?",
+    "opciones": [
+      "Verde, naranja, violeta",
+      "Azul, rojo, amarillo",
+      "Blanco y negro"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.034Z",
+    "updatedAt": "2026-05-05T01:53:06.034Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc51b",
+    "leccion": "69f94d829fff2eca370dc519",
+    "pregunta": "¿Para qué sirve el peróxido?",
+    "opciones": [
+      "Limpiar",
+      "Revelar el color en el tinte",
+      "Fijar el peinado"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.035Z",
+    "updatedAt": "2026-05-05T01:53:06.035Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc51c",
+    "leccion": "69f94d829fff2eca370dc519",
+    "pregunta": "¿Qué es el matizado?",
+    "opciones": [
+      "Cortar puntas",
+      "Corregir reflejos no deseados",
+      "Lavar el cabello"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.035Z",
+    "updatedAt": "2026-05-05T01:53:06.035Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc51e",
+    "leccion": "69f94d829fff2eca370dc51d",
+    "pregunta": "¿Qué es la keratina?",
+    "opciones": [
+      "Un champú",
+      "Proteína natural del cabello",
+      "Un tinte"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.037Z",
+    "updatedAt": "2026-05-05T01:53:06.037Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc51f",
+    "leccion": "69f94d829fff2eca370dc51d",
+    "pregunta": "¿Para qué sirve el acondicionador?",
+    "opciones": [
+      "Abrir cutícula",
+      "Sellar cutícula y desenredar",
+      "Limpiar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.037Z",
+    "updatedAt": "2026-05-05T01:53:06.037Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc520",
+    "leccion": "69f94d829fff2eca370dc51d",
+    "pregunta": "¿Qué es un baño de crema?",
+    "opciones": [
+      "Un postre",
+      "Hidratación profunda del cabello",
+      "Lavar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.038Z",
+    "updatedAt": "2026-05-05T01:53:06.038Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc522",
+    "leccion": "69f94d829fff2eca370dc521",
+    "pregunta": "¿Qué es el cardado?",
+    "opciones": [
+      "Cortar",
+      "Dar volumen cepillando hacia la raíz",
+      "Planchar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.040Z",
+    "updatedAt": "2026-05-05T01:53:06.040Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc523",
+    "leccion": "69f94d829fff2eca370dc521",
+    "pregunta": "¿Para qué se usa el fijador?",
+    "opciones": [
+      "Lavar",
+      "Mantener el peinado en su sitio",
+      "Brillo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.041Z",
+    "updatedAt": "2026-05-05T01:53:06.041Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc524",
+    "leccion": "69f94d829fff2eca370dc521",
+    "pregunta": "¿Qué es un recogido?",
+    "opciones": [
+      "Cabello suelto",
+      "Peinado donde el cabello queda hacia arriba o atrás",
+      "Trenza"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.042Z",
+    "updatedAt": "2026-05-05T01:53:06.042Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc526",
+    "leccion": "69f94d829fff2eca370dc525",
+    "pregunta": "¿Qué es la sanitización?",
+    "opciones": [
+      "Limpiar con agua",
+      "Reducir patógenos en superficies",
+      "Pintar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.043Z",
+    "updatedAt": "2026-05-05T01:53:06.043Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc527",
+    "leccion": "69f94d829fff2eca370dc525",
+    "pregunta": "¿Cómo limpiar las tijeras?",
+    "opciones": [
+      "Soplar",
+      "Desinfectar con alcohol o esterilizador",
+      "No se limpian"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.044Z",
+    "updatedAt": "2026-05-05T01:53:06.044Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc528",
+    "leccion": "69f94d829fff2eca370dc525",
+    "pregunta": "Uso de la capa:",
+    "opciones": [
+      "Moda",
+      "Protección del cliente",
+      "Abrigo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.045Z",
+    "updatedAt": "2026-05-05T01:53:06.045Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc529",
+    "curso": "69f94d829fff2eca370dc514",
+    "pregunta": "¿Por qué es vital la proyección en un corte?",
+    "opciones": [
+      "Para tardar menos",
+      "Para determinar la forma y longitud final",
+      "No es vital"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.046Z",
+    "updatedAt": "2026-05-05T01:53:06.046Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc52a",
+    "curso": "69f94d829fff2eca370dc514",
+    "pregunta": "¿Cuál es el resultado de mezclar azul y amarillo?",
+    "opciones": [
+      "Naranja",
+      "Verde",
+      "Violeta"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.046Z",
+    "updatedAt": "2026-05-05T01:53:06.046Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc52b",
+    "curso": "69f94d829fff2eca370dc514",
+    "pregunta": "¿Cuándo se debe aplicar un tratamiento reconstructor?",
+    "opciones": [
+      "Siempre",
+      "En cabellos químicamente procesados o dañados",
+      "Nunca"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.047Z",
+    "updatedAt": "2026-05-05T01:53:06.047Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc52c",
+    "curso": "69f94d829fff2eca370dc514",
+    "pregunta": "¿Qué producto protege el cabello del calor?",
+    "opciones": [
+      "Laca",
+      "Termoprotector",
+      "Gel"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.048Z",
+    "updatedAt": "2026-05-05T01:53:06.048Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc52d",
+    "curso": "69f94d829fff2eca370dc514",
+    "pregunta": "Norma principal ante un hongo en el cuero cabelludo:",
+    "opciones": [
+      "Cortar igual",
+      "Remitir al dermatólogo y no realizar servicio",
+      "Aplicar tinte"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.048Z",
+    "updatedAt": "2026-05-05T01:53:06.048Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc530",
+    "leccion": "69f94d829fff2eca370dc52f",
+    "pregunta": "¿Qué es el fondo de caja?",
+    "opciones": [
+      "Dinero ganado",
+      "Cambio inicial para el turno",
+      "Deuda"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.050Z",
+    "updatedAt": "2026-05-05T01:53:06.050Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc531",
+    "leccion": "69f94d829fff2eca370dc52f",
+    "pregunta": "¿Cómo detectar un billete falso?",
+    "opciones": [
+      "Olerlo",
+      "Revisar marca de agua y texturas",
+      "Mirar el color"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.051Z",
+    "updatedAt": "2026-05-05T01:53:06.051Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc532",
+    "leccion": "69f94d829fff2eca370dc52f",
+    "pregunta": "¿Qué es el arqueo de caja?",
+    "opciones": [
+      "Cerrar la tienda",
+      "Verificar que el dinero físico coincida con el sistema",
+      "Limpiar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.052Z",
+    "updatedAt": "2026-05-05T01:53:06.052Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc534",
+    "leccion": "69f94d829fff2eca370dc533",
+    "pregunta": "¿Qué es un punto de venta (POS)?",
+    "opciones": [
+      "Una mesa",
+      "Terminal para procesar pagos con tarjeta",
+      "Un estante"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.053Z",
+    "updatedAt": "2026-05-05T01:53:06.053Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc535",
+    "leccion": "69f94d829fff2eca370dc533",
+    "pregunta": "¿Para qué sirve el escáner?",
+    "opciones": [
+      "Tomar fotos",
+      "Leer códigos de barras de productos",
+      "Imprimir"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.054Z",
+    "updatedAt": "2026-05-05T01:53:06.054Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc536",
+    "leccion": "69f94d829fff2eca370dc533",
+    "pregunta": "¿Qué es una devolución?",
+    "opciones": [
+      "Regalo",
+      "Retorno de producto y dinero al cliente",
+      "Venta"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.054Z",
+    "updatedAt": "2026-05-05T01:53:06.054Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc538",
+    "leccion": "69f94d829fff2eca370dc537",
+    "pregunta": "¿Qué es la venta sugestiva?",
+    "opciones": [
+      "Obligar a comprar",
+      "Sugerir productos adicionales al cliente",
+      "Mentir"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.056Z",
+    "updatedAt": "2026-05-05T01:53:06.056Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc539",
+    "leccion": "69f94d829fff2eca370dc537",
+    "pregunta": "Importancia de la sonrisa:",
+    "opciones": [
+      "Cansa",
+      "Genera confianza y amabilidad",
+      "No importa"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.057Z",
+    "updatedAt": "2026-05-05T01:53:06.057Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc53a",
+    "leccion": "69f94d829fff2eca370dc537",
+    "pregunta": "¿Cómo manejar una fila larga?",
+    "opciones": [
+      "Gritar",
+      "Trabajar con agilidad y cortesía",
+      "Irse a descanso"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.058Z",
+    "updatedAt": "2026-05-05T01:53:06.058Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc53c",
+    "leccion": "69f94d829fff2eca370dc53b",
+    "pregunta": "¿Qué es el \"robo hormiga\"?",
+    "opciones": [
+      "Robo de insectos",
+      "Sustracción de pequeñas cantidades de mercancía",
+      "Un juego"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.060Z",
+    "updatedAt": "2026-05-05T01:53:06.060Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc53d",
+    "leccion": "69f94d829fff2eca370dc53b",
+    "pregunta": "¿Para qué sirve el ticket de compra?",
+    "opciones": [
+      "Basura",
+      "Comprobante legal y de inventario",
+      "Dibujar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.061Z",
+    "updatedAt": "2026-05-05T01:53:06.061Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc53e",
+    "leccion": "69f94d829fff2eca370dc53b",
+    "pregunta": "Función de las cámaras:",
+    "opciones": [
+      "Ver películas",
+      "Seguridad y monitoreo",
+      "Decoración"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.062Z",
+    "updatedAt": "2026-05-05T01:53:06.062Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc540",
+    "leccion": "69f94d829fff2eca370dc53f",
+    "pregunta": "¿Qué es el sobrante?",
+    "opciones": [
+      "Falta dinero",
+      "Hay más dinero del que indica el sistema",
+      "Está bien"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.063Z",
+    "updatedAt": "2026-05-05T01:53:06.063Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc541",
+    "leccion": "69f94d829fff2eca370dc53f",
+    "pregunta": "¿A quién se entrega el corte?",
+    "opciones": [
+      "Al cliente",
+      "Al supervisor o gerente",
+      "Se deja ahí"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.064Z",
+    "updatedAt": "2026-05-05T01:53:06.064Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc542",
+    "leccion": "69f94d829fff2eca370dc53f",
+    "pregunta": "¿Qué hacer con los cupones?",
+    "opciones": [
+      "Tirarlos",
+      "Contabilizarlos y entregarlos con el reporte",
+      "Regalarlos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.065Z",
+    "updatedAt": "2026-05-05T01:53:06.065Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc543",
+    "curso": "69f94d829fff2eca370dc52e",
+    "pregunta": "¿Cuál es la prioridad en el manejo de efectivo?",
+    "opciones": [
+      "Rapidez",
+      "Precisión y seguridad",
+      "El orden"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.066Z",
+    "updatedAt": "2026-05-05T01:53:06.066Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc544",
+    "curso": "69f94d829fff2eca370dc52e",
+    "pregunta": "Si el POS falla, ¿qué debe hacer?",
+    "opciones": [
+      "No cobrar",
+      "Informar al cliente y buscar alternativa (efectivo/reporte)",
+      "Llorar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.067Z",
+    "updatedAt": "2026-05-05T01:53:06.067Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc545",
+    "curso": "69f94d829fff2eca370dc52e",
+    "pregunta": "¿Qué define un buen servicio al cliente en caja?",
+    "opciones": [
+      "No hablar",
+      "Rapidez, amabilidad y exactitud",
+      "Ser lento"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.068Z",
+    "updatedAt": "2026-05-05T01:53:06.068Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc546",
+    "curso": "69f94d829fff2eca370dc52e",
+    "pregunta": "¿Cómo actuar ante un billete dudoso?",
+    "opciones": [
+      "Aceptarlo igual",
+      "Informar cortésmente y solicitar otro pago",
+      "Llamar a la policía"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.069Z",
+    "updatedAt": "2026-05-05T01:53:06.069Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc547",
+    "curso": "69f94d829fff2eca370dc52e",
+    "pregunta": "¿Qué indica un descuadre constante?",
+    "opciones": [
+      "Buena suerte",
+      "Falla en el procedimiento o posible robo",
+      "Falta de clientes"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.070Z",
+    "updatedAt": "2026-05-05T01:53:06.070Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc54a",
+    "leccion": "69f94d829fff2eca370dc549",
+    "pregunta": "¿Para qué sirve el empujador de cutícula?",
+    "opciones": [
+      "Cortar",
+      "Retirar la piel muerta de la uña",
+      "Pintar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.075Z",
+    "updatedAt": "2026-05-05T01:53:06.075Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc54b",
+    "leccion": "69f94d829fff2eca370dc549",
+    "pregunta": "¿Qué es el limado?",
+    "opciones": [
+      "Pintar",
+      "Dar forma al borde libre de la uña",
+      "Lavar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.076Z",
+    "updatedAt": "2026-05-05T01:53:06.076Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc54c",
+    "leccion": "69f94d829fff2eca370dc549",
+    "pregunta": "Uso de la base coat:",
+    "opciones": [
+      "Brillo final",
+      "Proteger la uña natural del pigmento",
+      "Limpiar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.077Z",
+    "updatedAt": "2026-05-05T01:53:06.077Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc54e",
+    "leccion": "69f94d829fff2eca370dc54d",
+    "pregunta": "¿Qué es el monómero?",
+    "opciones": [
+      "Polvo",
+      "Líquido reactivo para el acrílico",
+      "Limpiador"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.078Z",
+    "updatedAt": "2026-05-05T01:53:06.078Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc54f",
+    "leccion": "69f94d829fff2eca370dc54d",
+    "pregunta": "¿Para qué sirve el polímero?",
+    "opciones": [
+      "Líquido",
+      "Polvo que forma la uña acrílica",
+      "Pegamento"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.079Z",
+    "updatedAt": "2026-05-05T01:53:06.079Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc550",
+    "leccion": "69f94d829fff2eca370dc54d",
+    "pregunta": "¿Qué es el tip?",
+    "opciones": [
+      "Consejo",
+      "Extensión de plástico para la uña",
+      "Pincel"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.080Z",
+    "updatedAt": "2026-05-05T01:53:06.080Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc552",
+    "leccion": "69f94d829fff2eca370dc551",
+    "pregunta": "¿Para qué se usa la lámpara UV/LED?",
+    "opciones": [
+      "Dar luz",
+      "Curar o secar el esmalte en gel",
+      "Calentar manos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.081Z",
+    "updatedAt": "2026-05-05T01:53:06.081Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc553",
+    "leccion": "69f94d829fff2eca370dc551",
+    "pregunta": "¿Qué es la capa de inhibición?",
+    "opciones": [
+      "Un color",
+      "Capa pegajosa que queda tras el secado",
+      "Un error"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.082Z",
+    "updatedAt": "2026-05-05T01:53:06.082Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc554",
+    "leccion": "69f94d829fff2eca370dc551",
+    "pregunta": "¿Cómo se retira el gel?",
+    "opciones": [
+      "Arrancándolo",
+      "Con acetona pura o limado suave",
+      "Con agua"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.083Z",
+    "updatedAt": "2026-05-05T01:53:06.083Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc556",
+    "leccion": "69f94d829fff2eca370dc555",
+    "pregunta": "¿Qué es el dotting tool?",
+    "opciones": [
+      "Pincel largo",
+      "Herramienta para hacer puntos",
+      "Lima"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.084Z",
+    "updatedAt": "2026-05-05T01:53:06.084Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc557",
+    "leccion": "69f94d829fff2eca370dc555",
+    "pregunta": "¿Qué es el efecto espejo?",
+    "opciones": [
+      "Ver la cara",
+      "Polvo pigmentado que da brillo metálico",
+      "Una pegatina"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.085Z",
+    "updatedAt": "2026-05-05T01:53:06.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc558",
+    "leccion": "69f94d829fff2eca370dc555",
+    "pregunta": "¿Para qué sirve el pincel liner?",
+    "opciones": [
+      "Rellenar",
+      "Hacer trazos finos y detalles",
+      "Limpiar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.085Z",
+    "updatedAt": "2026-05-05T01:53:06.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc55a",
+    "leccion": "69f94d829fff2eca370dc559",
+    "pregunta": "¿Qué es la onicomicosis?",
+    "opciones": [
+      "Uña rota",
+      "Hongos en las uñas",
+      "Color amarillo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.087Z",
+    "updatedAt": "2026-05-05T01:53:06.087Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc55b",
+    "leccion": "69f94d829fff2eca370dc559",
+    "pregunta": "¿Para qué sirve el autoclave?",
+    "opciones": [
+      "Pintar",
+      "Esterilización por calor y presión",
+      "Lavar manos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.087Z",
+    "updatedAt": "2026-05-05T01:53:06.087Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc55c",
+    "leccion": "69f94d829fff2eca370dc559",
+    "pregunta": "¿Qué hacer ante una herida?",
+    "opciones": [
+      "Seguir trabajando",
+      "Detener, desinfectar y proteger",
+      "Soplar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.088Z",
+    "updatedAt": "2026-05-05T01:53:06.088Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc55d",
+    "curso": "69f94d829fff2eca370dc548",
+    "pregunta": "¿Cuál es el orden correcto del esmaltado?",
+    "opciones": [
+      "Color, Base, Top",
+      "Base, Color, Top",
+      "Top, Color, Base"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.090Z",
+    "updatedAt": "2026-05-05T01:53:06.090Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc55e",
+    "curso": "69f94d829fff2eca370dc548",
+    "pregunta": "¿Qué sucede si el acrílico toca la piel?",
+    "opciones": [
+      "Nada",
+      "Puede causar levantamiento prematuro o alergias",
+      "Se ve mejor"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.092Z",
+    "updatedAt": "2026-05-05T01:53:06.092Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc55f",
+    "curso": "69f94d829fff2eca370dc548",
+    "pregunta": "¿Cuánto tiempo suele curar un gel en LED?",
+    "opciones": [
+      "10 minutos",
+      "30 a 60 segundos",
+      "1 hora"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.094Z",
+    "updatedAt": "2026-05-05T01:53:06.094Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc560",
+    "curso": "69f94d829fff2eca370dc548",
+    "pregunta": "¿Qué herramienta es fundamental para el diseño a mano alzada?",
+    "opciones": [
+      "Lima",
+      "Pincel liner",
+      "Alicate"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.094Z",
+    "updatedAt": "2026-05-05T01:53:06.094Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc561",
+    "curso": "69f94d829fff2eca370dc548",
+    "pregunta": "¿Por qué no se debe usar la misma lima en varios clientes?",
+    "opciones": [
+      "Se gasta",
+      "Por higiene y evitar contagio de infecciones",
+      "Es mala suerte"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.095Z",
+    "updatedAt": "2026-05-05T01:53:06.095Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc564",
+    "leccion": "69f94d829fff2eca370dc563",
+    "pregunta": "¿Qué es un principio activo?",
+    "opciones": [
+      "El nombre de la farmacia",
+      "Sustancia responsable del efecto terapéutico",
+      "El envase"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.101Z",
+    "updatedAt": "2026-05-05T01:53:06.101Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc565",
+    "leccion": "69f94d829fff2eca370dc563",
+    "pregunta": "¿Qué es un medicamento genérico?",
+    "opciones": [
+      "Uno falso",
+      "Mismo principio activo que el de marca pero sin patente",
+      "Uno más débil"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.102Z",
+    "updatedAt": "2026-05-05T01:53:06.102Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc566",
+    "leccion": "69f94d829fff2eca370dc563",
+    "pregunta": "Vía de administración oral:",
+    "opciones": [
+      "Inyección",
+      "Cápsulas, tabletas, jarabes por la boca",
+      "Parches"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.103Z",
+    "updatedAt": "2026-05-05T01:53:06.103Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc568",
+    "leccion": "69f94d829fff2eca370dc567",
+    "pregunta": "¿Qué debe revisar en una receta?",
+    "opciones": [
+      "El papel",
+      "Nombre, dosis, firma y fecha",
+      "El precio"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.106Z",
+    "updatedAt": "2026-05-05T01:53:06.106Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc569",
+    "leccion": "69f94d829fff2eca370dc567",
+    "pregunta": "¿Qué significa \"antibiótico\"?",
+    "opciones": [
+      "Para el dolor",
+      "Para combatir infecciones bacterianas",
+      "Para la tos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.108Z",
+    "updatedAt": "2026-05-05T01:53:06.108Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc56a",
+    "leccion": "69f94d829fff2eca370dc567",
+    "pregunta": "¿Qué es el consejo farmacéutico?",
+    "opciones": [
+      "Vender más",
+      "Orientar al paciente sobre el uso del fármaco",
+      "Recetar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.109Z",
+    "updatedAt": "2026-05-05T01:53:06.109Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc56c",
+    "leccion": "69f94d829fff2eca370dc56b",
+    "pregunta": "¿Qué es la cadena de frío?",
+    "opciones": [
+      "Hielo",
+      "Mantenimiento de temperatura (2-8°C) para vacunas/insulinas",
+      "Aire acondicionado"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.111Z",
+    "updatedAt": "2026-05-05T01:53:06.111Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc56d",
+    "leccion": "69f94d829fff2eca370dc56b",
+    "pregunta": "¿Qué es el sistema FEFO?",
+    "opciones": [
+      "Primero que entra, primero que sale",
+      "Lo primero que vence es lo primero que sale",
+      "Vender lo más caro"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.112Z",
+    "updatedAt": "2026-05-05T01:53:06.112Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc56e",
+    "leccion": "69f94d829fff2eca370dc56b",
+    "pregunta": "¿Para qué sirve el registro de temperatura?",
+    "opciones": [
+      "Perder tiempo",
+      "Asegurar la estabilidad de los medicamentos",
+      "Adorno"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.114Z",
+    "updatedAt": "2026-05-05T01:53:06.114Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc570",
+    "leccion": "69f94d829fff2eca370dc56f",
+    "pregunta": "¿Qué es un medicamento controlado?",
+    "opciones": [
+      "Medicamento de venta libre",
+      "Requiere receta especial por riesgo de dependencia",
+      "Medicamento caro"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.116Z",
+    "updatedAt": "2026-05-05T01:53:06.116Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc571",
+    "leccion": "69f94d829fff2eca370dc56f",
+    "pregunta": "¿Qué es el libro de control?",
+    "opciones": [
+      "Diario personal",
+      "Registro oficial de entradas y salidas de controlados",
+      "Catálogo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.118Z",
+    "updatedAt": "2026-05-05T01:53:06.118Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc572",
+    "leccion": "69f94d829fff2eca370dc56f",
+    "pregunta": "¿Qué es the farmacovigilancia?",
+    "opciones": [
+      "Vigilar la farmacia",
+      "Detección y reporte de efectos adversos de fármacos",
+      "Cámaras"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.119Z",
+    "updatedAt": "2026-05-05T01:53:06.119Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc574",
+    "leccion": "69f94d829fff2eca370dc573",
+    "pregunta": "¿Qué es un botiquín?",
+    "opciones": [
+      "Una maleta",
+      "Conjunto de elementos para atención primaria",
+      "Caja de herramientas"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.121Z",
+    "updatedAt": "2026-05-05T01:53:06.121Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc575",
+    "leccion": "69f94d829fff2eca370dc573",
+    "pregunta": "¿Cómo actuar ante una quemadura leve?",
+    "opciones": [
+      "Aplicar pasta dental",
+      "Lavar con agua fría corriente",
+      "Explotar ampollas"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.123Z",
+    "updatedAt": "2026-05-05T01:53:06.123Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc576",
+    "leccion": "69f94d829fff2eca370dc573",
+    "pregunta": "¿Qué es el RCP?",
+    "opciones": [
+      "Un examen",
+      "Reanimación Cardio Pulmonar",
+      "Una vitamina"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.124Z",
+    "updatedAt": "2026-05-05T01:53:06.124Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc577",
+    "curso": "69f94d829fff2eca370dc562",
+    "pregunta": "¿Cuál es la diferencia entre marca y genérico?",
+    "opciones": [
+      "El efecto",
+      "Solo el nombre comercial y el precio",
+      "La calidad"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.125Z",
+    "updatedAt": "2026-05-05T01:53:06.125Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc578",
+    "curso": "69f94d829fff2eca370dc562",
+    "pregunta": "¿Por qué no se debe vender antibióticos sin receta?",
+    "opciones": [
+      "Es más caro",
+      "Para evitar la resistencia bacteriana",
+      "No hay stock"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.126Z",
+    "updatedAt": "2026-05-05T01:53:06.126Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc579",
+    "curso": "69f94d829fff2eca370dc562",
+    "pregunta": "¿Qué indica una fecha de vencimiento próxima?",
+    "opciones": [
+      "Oferta",
+      "Retirar del anaquel para devolución o desecho",
+      "Vender rápido"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.127Z",
+    "updatedAt": "2026-05-05T01:53:06.127Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc57a",
+    "curso": "69f94d829fff2eca370dc562",
+    "pregunta": "¿Qué documento avala la venta de un psicotrópico?",
+    "opciones": [
+      "DNI",
+      "Receta médica archivada",
+      "Factura"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.128Z",
+    "updatedAt": "2026-05-05T01:53:06.128Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc57b",
+    "curso": "69f94d829fff2eca370dc562",
+    "pregunta": "Ante una reacción alérgica grave, ¿qué es lo primero?",
+    "opciones": [
+      "Dar agua",
+      "Llamar a emergencias y buscar ayuda médica",
+      "Dar un dulce"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.129Z",
+    "updatedAt": "2026-05-05T01:53:06.129Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc57e",
+    "leccion": "69f94d829fff2eca370dc57d",
+    "pregunta": "¿Qué es una Clipper?",
+    "opciones": [
+      "Tijera",
+      "Máquina de corte eléctrica",
+      "Navaja"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.133Z",
+    "updatedAt": "2026-05-05T01:53:06.133Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc57f",
+    "leccion": "69f94d829fff2eca370dc57d",
+    "pregunta": "¿Para qué sirve el Shavette?",
+    "opciones": [
+      "Peine",
+      "Navaja de afeitar de hojas intercambiables",
+      "Cepillo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.135Z",
+    "updatedAt": "2026-05-05T01:53:06.135Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc580",
+    "leccion": "69f94d829fff2eca370dc57d",
+    "pregunta": "Uso del bledo:",
+    "opciones": [
+      "Cortar",
+      "Limpiar los pelos sueltos del cliente",
+      "Lavar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.137Z",
+    "updatedAt": "2026-05-05T01:53:06.137Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc582",
+    "leccion": "69f94d829fff2eca370dc581",
+    "pregunta": "¿Qué es un Skin Fade?",
+    "opciones": [
+      "Corte largo",
+      "Degradado que empieza desde la piel (cero)",
+      "Corte con tijera"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.140Z",
+    "updatedAt": "2026-05-05T01:53:06.140Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc583",
+    "leccion": "69f94d829fff2eca370dc581",
+    "pregunta": "¿Para qué sirve la palanca de la máquina?",
+    "opciones": [
+      "Apagar",
+      "Ajustar la longitud de la cuchilla",
+      "Velocidad"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.142Z",
+    "updatedAt": "2026-05-05T01:53:06.142Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc584",
+    "leccion": "69f94d829fff2eca370dc581",
+    "pregunta": "¿Qué es la técnica \"C-Stroke\"?",
+    "opciones": [
+      "Un golpe",
+      "Movimiento en forma de C para borrar líneas",
+      "Cortar recto"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.144Z",
+    "updatedAt": "2026-05-05T01:53:06.144Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc586",
+    "leccion": "69f94d829fff2eca370dc585",
+    "pregunta": "¿Para qué sirve la toalla caliente?",
+    "opciones": [
+      "Secar",
+      "Abrir poros y ablandar el vello facial",
+      "Limpiar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.147Z",
+    "updatedAt": "2026-05-05T01:53:06.147Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc587",
+    "leccion": "69f94d829fff2eca370dc585",
+    "pregunta": "¿Qué es el After Shave?",
+    "opciones": [
+      "Jabón",
+      "Loción para calmar la piel tras el afeitado",
+      "Aceite"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.149Z",
+    "updatedAt": "2026-05-05T01:53:06.149Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc588",
+    "leccion": "69f94d829fff2eca370dc585",
+    "pregunta": "Dirección del afeitado:",
+    "opciones": [
+      "Hacia arriba",
+      "A favor del crecimiento del vello",
+      "Como sea"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.151Z",
+    "updatedAt": "2026-05-05T01:53:06.151Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc58a",
+    "leccion": "69f94d829fff2eca370dc589",
+    "pregunta": "¿Qué es el \"lining\"?",
+    "opciones": [
+      "Cortar",
+      "Marcar los contornos y líneas del cabello",
+      "Pintar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.154Z",
+    "updatedAt": "2026-05-05T01:53:06.154Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc58b",
+    "leccion": "69f94d829fff2eca370dc589",
+    "pregunta": "¿Para qué sirve el lápiz de barbero?",
+    "opciones": [
+      "Escribir",
+      "Resaltar el diseño y contornos",
+      "Dibujar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.155Z",
+    "updatedAt": "2026-05-05T01:53:06.155Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc58c",
+    "leccion": "69f94d829fff2eca370dc589",
+    "pregunta": "¿Qué es un pompadour?",
+    "opciones": [
+      "Un peine",
+      "Peinado con volumen en la parte frontal",
+      "Rapado"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.156Z",
+    "updatedAt": "2026-05-05T01:53:06.156Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc58e",
+    "leccion": "69f94d829fff2eca370dc58d",
+    "pregunta": "¿Qué es el Barbicide?",
+    "opciones": [
+      "Un tinte",
+      "Solución desinfectante para herramientas",
+      "Champú"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.158Z",
+    "updatedAt": "2026-05-05T01:53:06.158Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc58f",
+    "leccion": "69f94d829fff2eca370dc58d",
+    "pregunta": "¿Cada cuánto cambiar la navaja?",
+    "opciones": [
+      "Cada mes",
+      "Después de cada cliente",
+      "Cuando no corte"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.160Z",
+    "updatedAt": "2026-05-05T01:53:06.160Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc590",
+    "leccion": "69f94d829fff2eca370dc58d",
+    "pregunta": "Importancia del talco:",
+    "opciones": [
+      "Olor",
+      "Evitar irritación y facilitar limpieza",
+      "Moda"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.163Z",
+    "updatedAt": "2026-05-05T01:53:06.163Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc591",
+    "curso": "69f94d829fff2eca370dc57c",
+    "pregunta": "¿Cuál es la herramienta principal para un degradado?",
+    "opciones": [
+      "Navaja",
+      "Clipper con diferentes niveles",
+      "Tijera"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.165Z",
+    "updatedAt": "2026-05-05T01:53:06.165Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc592",
+    "curso": "69f94d829fff2eca370dc57c",
+    "pregunta": "¿Cómo se borra la línea de la guía?",
+    "opciones": [
+      "Cortando más",
+      "Usando la técnica de palanca abierta/cerrada",
+      "Lavando"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.166Z",
+    "updatedAt": "2026-05-05T01:53:06.166Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc593",
+    "curso": "69f94d829fff2eca370dc57c",
+    "pregunta": "Paso previo al afeitado con navaja:",
+    "opciones": [
+      "Cortar con tijera",
+      "Aplicar gel de afeitar o espuma",
+      "No hacer nada"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.168Z",
+    "updatedAt": "2026-05-05T01:53:06.168Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc594",
+    "curso": "69f94d829fff2eca370dc57c",
+    "pregunta": "¿Qué define un buen perfilado?",
+    "opciones": [
+      "La rapidez",
+      "La simetría y limpieza de las líneas",
+      "El precio"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.170Z",
+    "updatedAt": "2026-05-05T01:53:06.170Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc595",
+    "curso": "69f94d829fff2eca370dc57c",
+    "pregunta": "¿Por qué desinfectar las máquinas?",
+    "opciones": [
+      "Para que brillen",
+      "Para prevenir transmisión de bacterias y hongos",
+      "Por ley"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.170Z",
+    "updatedAt": "2026-05-05T01:53:06.170Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc598",
+    "leccion": "69f94d829fff2eca370dc597",
+    "pregunta": "Presión arterial normal (adulto):",
+    "opciones": [
+      "150/90",
+      "120/80 mmHg",
+      "100/60"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.176Z",
+    "updatedAt": "2026-05-05T01:53:06.176Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc599",
+    "leccion": "69f94d829fff2eca370dc597",
+    "pregunta": "¿Dónde se mide el pulso radial?",
+    "opciones": [
+      "En el cuello",
+      "En la muñeca",
+      "En el pie"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.178Z",
+    "updatedAt": "2026-05-05T01:53:06.178Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc59a",
+    "leccion": "69f94d829fff2eca370dc597",
+    "pregunta": "Frecuencia respiratoria normal:",
+    "opciones": [
+      "5-10 rpm",
+      "12-20 respiraciones por minuto",
+      "30-40 rpm"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.180Z",
+    "updatedAt": "2026-05-05T01:53:06.180Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc59c",
+    "leccion": "69f94d829fff2eca370dc59b",
+    "pregunta": "¿Qué es el baño en cama?",
+    "opciones": [
+      "Nadar",
+      "Aseo total del paciente con movilidad limitada",
+      "Lavar la sábana"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.182Z",
+    "updatedAt": "2026-05-05T01:53:06.182Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc59d",
+    "leccion": "69f94d829fff2eca370dc59b",
+    "pregunta": "¿Para qué sirve el cambio de posición?",
+    "opciones": [
+      "Cansar al paciente",
+      "Prevenir úlceras por presión",
+      "Por orden"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.183Z",
+    "updatedAt": "2026-05-05T01:53:06.183Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc59e",
+    "leccion": "69f94d829fff2eca370dc59b",
+    "pregunta": "¿Qué es la asepsia?",
+    "opciones": [
+      "Estar sucio",
+      "Ausencia de microorganismos patógenos",
+      "Pintar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.184Z",
+    "updatedAt": "2026-05-05T01:53:06.184Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a0",
+    "leccion": "69f94d829fff2eca370dc59f",
+    "pregunta": "Regla de los \"5 correctos\":",
+    "opciones": [
+      "Paciente, fármaco, dosis, vía, hora",
+      "Rapidez, color, forma, caja, precio",
+      "Nombre, apellido, edad, sexo, peso"
+    ],
+    "respuestaCorrecta": 0,
+    "createdAt": "2026-05-05T01:53:06.186Z",
+    "updatedAt": "2026-05-05T01:53:06.186Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a1",
+    "leccion": "69f94d829fff2eca370dc59f",
+    "pregunta": "¿Qué es la vía intravenosa?",
+    "opciones": [
+      "Por la boca",
+      "Directamente al torrente sanguíneo por vena",
+      "En el músculo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.187Z",
+    "updatedAt": "2026-05-05T01:53:06.187Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a2",
+    "leccion": "69f94d829fff2eca370dc59f",
+    "pregunta": "¿Para qué sirve el kárdex?",
+    "opciones": [
+      "Agenda personal",
+      "Registro de medicación del paciente",
+      "Un libro"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.188Z",
+    "updatedAt": "2026-05-05T01:53:06.188Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a4",
+    "leccion": "69f94d829fff2eca370dc5a3",
+    "pregunta": "¿Qué es una herida limpia?",
+    "opciones": [
+      "Una con jabón",
+      "Herida quirúrgica no infectada",
+      "Un raspón"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.191Z",
+    "updatedAt": "2026-05-05T01:53:06.191Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a5",
+    "leccion": "69f94d829fff2eca370dc5a3",
+    "pregunta": "Uso de solución salina:",
+    "opciones": [
+      "Beber",
+      "Lavado y limpieza de tejidos",
+      "Pegar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.192Z",
+    "updatedAt": "2026-05-05T01:53:06.192Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a6",
+    "leccion": "69f94d829fff2eca370dc5a3",
+    "pregunta": "¿Qué es un apósito?",
+    "opciones": [
+      "Una pastilla",
+      "Material de cobertura para heridas",
+      "Una crema"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.193Z",
+    "updatedAt": "2026-05-05T01:53:06.193Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a8",
+    "leccion": "69f94d829fff2eca370dc5a7",
+    "pregunta": "¿Qué es la autonomía?",
+    "opciones": [
+      "Hacer todo solo",
+      "Respeto a las decisiones del paciente",
+      "Poder"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.195Z",
+    "updatedAt": "2026-05-05T01:53:06.195Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a9",
+    "leccion": "69f94d829fff2eca370dc5a7",
+    "pregunta": "Confidencialidad:",
+    "opciones": [
+      "Contar todo",
+      "No revelar datos del paciente sin autorización",
+      "Mentir"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.196Z",
+    "updatedAt": "2026-05-05T01:53:06.196Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5aa",
+    "leccion": "69f94d829fff2eca370dc5a7",
+    "pregunta": "¿Qué es la empatía?",
+    "opciones": [
+      "Lástima",
+      "Comprender y compartir los sentimientos del otro",
+      "Ser serio"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.197Z",
+    "updatedAt": "2026-05-05T01:53:06.197Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ab",
+    "curso": "69f94d829fff2eca370dc596",
+    "pregunta": "¿Qué indica una fiebre (38.5°C)?",
+    "opciones": [
+      "Salud",
+      "Posible proceso infeccioso o inflamatorio",
+      "Frío"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.199Z",
+    "updatedAt": "2026-05-05T01:53:06.199Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ac",
+    "curso": "69f94d829fff2eca370dc596",
+    "pregunta": "¿Cuál es el primer paso antes de cualquier procedimiento?",
+    "opciones": [
+      "Hablar con el jefe",
+      "Lavado de manos clínico",
+      "Preparar el café"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.199Z",
+    "updatedAt": "2026-05-05T01:53:06.199Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ad",
+    "curso": "69f94d829fff2eca370dc596",
+    "pregunta": "Si un paciente es alérgico, ¿qué debe hacer?",
+    "opciones": [
+      "Dar el fármaco lento",
+      "Marcar la historia clínica y no administrarlo",
+      "Ignorarlo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.200Z",
+    "updatedAt": "2026-05-05T01:53:06.200Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ae",
+    "curso": "69f94d829fff2eca370dc596",
+    "pregunta": "¿Cómo prevenir caídas en el hospital?",
+    "opciones": [
+      "Atar al paciente",
+      "Mantener barandales arriba y suelo seco",
+      "No dejar que camine"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.201Z",
+    "updatedAt": "2026-05-05T01:53:06.201Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5af",
+    "curso": "69f94d829fff2eca370dc596",
+    "pregunta": "¿Qué define la negligencia?",
+    "opciones": [
+      "Hacerlo bien",
+      "Falta de cuidado o abandono de deberes profesionales",
+      "Ser rápido"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.202Z",
+    "updatedAt": "2026-05-05T01:53:06.202Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b2",
+    "leccion": "69f94d829fff2eca370dc5b1",
+    "pregunta": "How do you say \"Hello\"?",
+    "opciones": [
+      "Bye",
+      "Hello",
+      "Please"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.204Z",
+    "updatedAt": "2026-05-05T01:53:06.204Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b3",
+    "leccion": "69f94d829fff2eca370dc5b1",
+    "pregunta": "Which is a color?",
+    "opciones": [
+      "Book",
+      "Blue",
+      "Run"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.205Z",
+    "updatedAt": "2026-05-05T01:53:06.205Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b4",
+    "leccion": "69f94d829fff2eca370dc5b1",
+    "pregunta": "Translate: \"Thank you\"",
+    "opciones": [
+      "Sorry",
+      "Thank you",
+      "Welcome"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.206Z",
+    "updatedAt": "2026-05-05T01:53:06.206Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b6",
+    "leccion": "69f94d829fff2eca370dc5b5",
+    "pregunta": "I ____ a student.",
+    "opciones": [
+      "is",
+      "am",
+      "are"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.208Z",
+    "updatedAt": "2026-05-05T01:53:06.208Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b7",
+    "leccion": "69f94d829fff2eca370dc5b5",
+    "pregunta": "She ____ happy.",
+    "opciones": [
+      "am",
+      "is",
+      "are"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.209Z",
+    "updatedAt": "2026-05-05T01:53:06.209Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b8",
+    "leccion": "69f94d829fff2eca370dc5b5",
+    "pregunta": "They ____ at home.",
+    "opciones": [
+      "am",
+      "is",
+      "are"
+    ],
+    "respuestaCorrecta": 2,
+    "createdAt": "2026-05-05T01:53:06.210Z",
+    "updatedAt": "2026-05-05T01:53:06.210Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ba",
+    "leccion": "69f94d829fff2eca370dc5b9",
+    "pregunta": "What is 10 + 5?",
+    "opciones": [
+      "Ten",
+      "Fifteen",
+      "Twelve"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.211Z",
+    "updatedAt": "2026-05-05T01:53:06.211Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5bb",
+    "leccion": "69f94d829fff2eca370dc5b9",
+    "pregunta": "How do you ask the time?",
+    "opciones": [
+      "What time is it?",
+      "Where are you?",
+      "Who is he?"
+    ],
+    "respuestaCorrecta": 0,
+    "createdAt": "2026-05-05T01:53:06.211Z",
+    "updatedAt": "2026-05-05T01:53:06.211Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5bc",
+    "leccion": "69f94d829fff2eca370dc5b9",
+    "pregunta": "Translate: \"Monday\"",
+    "opciones": [
+      "Tuesday",
+      "Monday",
+      "Friday"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.212Z",
+    "updatedAt": "2026-05-05T01:53:06.212Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5be",
+    "leccion": "69f94d829fff2eca370dc5bd",
+    "pregunta": "Translate: \"To Eat\"",
+    "opciones": [
+      "Sleep",
+      "Eat",
+      "Work"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.214Z",
+    "updatedAt": "2026-05-05T01:53:06.214Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5bf",
+    "leccion": "69f94d829fff2eca370dc5bd",
+    "pregunta": "I ____ water every day.",
+    "opciones": [
+      "eat",
+      "drink",
+      "see"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.215Z",
+    "updatedAt": "2026-05-05T01:53:06.215Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c0",
+    "leccion": "69f94d829fff2eca370dc5bd",
+    "pregunta": "They ____ soccer.",
+    "opciones": [
+      "play",
+      "read",
+      "listen"
+    ],
+    "respuestaCorrecta": 0,
+    "createdAt": "2026-05-05T01:53:06.216Z",
+    "updatedAt": "2026-05-05T01:53:06.216Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c2",
+    "leccion": "69f94d829fff2eca370dc5c1",
+    "pregunta": "How are you?",
+    "opciones": [
+      "I am fine",
+      "Yes",
+      "No"
+    ],
+    "respuestaCorrecta": 0,
+    "createdAt": "2026-05-05T01:53:06.218Z",
+    "updatedAt": "2026-05-05T01:53:06.218Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c3",
+    "leccion": "69f94d829fff2eca370dc5c1",
+    "pregunta": "What is your name?",
+    "opciones": [
+      "I am 20",
+      "My name is John",
+      "I live here"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.218Z",
+    "updatedAt": "2026-05-05T01:53:06.218Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c4",
+    "leccion": "69f94d829fff2eca370dc5c1",
+    "pregunta": "Where are you from?",
+    "opciones": [
+      "I am tall",
+      "I am from Mexico",
+      "I like music"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.219Z",
+    "updatedAt": "2026-05-05T01:53:06.219Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c5",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "pregunta": "Which is a proper greeting?",
+    "opciones": [
+      "Good morning",
+      "Red",
+      "Laptop"
+    ],
+    "respuestaCorrecta": 0,
+    "createdAt": "2026-05-05T01:53:06.220Z",
+    "updatedAt": "2026-05-05T01:53:06.220Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c6",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "pregunta": "Complete: \"You ____ my friend.\"",
+    "opciones": [
+      "am",
+      "are",
+      "is"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.221Z",
+    "updatedAt": "2026-05-05T01:53:06.221Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c7",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "pregunta": "How do you say \"Twelve\" in English?",
+    "opciones": [
+      "Ten",
+      "Twelve",
+      "Twenty"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.222Z",
+    "updatedAt": "2026-05-05T01:53:06.222Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c8",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "pregunta": "Translate: \"I want to eat.\"",
+    "opciones": [
+      "Quiero dormir",
+      "Quiero comer",
+      "Quiero agua"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.224Z",
+    "updatedAt": "2026-05-05T01:53:06.224Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c9",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "pregunta": "What is the answer to \"Nice to meet you\"?",
+    "opciones": [
+      "Hello",
+      "Nice to meet you too",
+      "Goodbye"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.225Z",
+    "updatedAt": "2026-05-05T01:53:06.225Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5cc",
+    "leccion": "69f94d829fff2eca370dc5cb",
+    "pregunta": "¿Qué es el display?",
+    "opciones": [
+      "La batería",
+      "La pantalla que muestra imagen",
+      "El procesador"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.228Z",
+    "updatedAt": "2026-05-05T01:53:06.228Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5cd",
+    "leccion": "69f94d829fff2eca370dc5cb",
+    "pregunta": "¿Para qué sirve el Flex?",
+    "opciones": [
+      "Cargar",
+      "Cables planos que conectan componentes",
+      "Protección"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.229Z",
+    "updatedAt": "2026-05-05T01:53:06.229Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ce",
+    "leccion": "69f94d829fff2eca370dc5cb",
+    "pregunta": "¿Qué es la batería Li-Ion?",
+    "opciones": [
+      "Un chip",
+      "Batería de iones de litio recargable",
+      "El cristal"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.230Z",
+    "updatedAt": "2026-05-05T01:53:06.230Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d0",
+    "leccion": "69f94d829fff2eca370dc5cf",
+    "pregunta": "¿Para qué sirve el multímetro?",
+    "opciones": [
+      "Pintar",
+      "Medir voltajes y continuidad eléctrica",
+      "Soldar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.232Z",
+    "updatedAt": "2026-05-05T01:53:06.232Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d1",
+    "leccion": "69f94d829fff2eca370dc5cf",
+    "pregunta": "¿Qué es la estación de calor?",
+    "opciones": [
+      "Ventilador",
+      "Herramienta para desoldar y remover pantallas",
+      "Estufa"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.233Z",
+    "updatedAt": "2026-05-05T01:53:06.233Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d2",
+    "leccion": "69f94d829fff2eca370dc5cf",
+    "pregunta": "Uso de la ventosa:",
+    "opciones": [
+      "Limpiar",
+      "Levantar pantallas con succión",
+      "Pegar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.233Z",
+    "updatedAt": "2026-05-05T01:53:06.233Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d4",
+    "leccion": "69f94d829fff2eca370dc5d3",
+    "pregunta": "¿Qué es el Android?",
+    "opciones": [
+      "Una marca",
+      "Sistema operativo móvil",
+      "Un hardware"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.234Z",
+    "updatedAt": "2026-05-05T01:53:06.234Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d5",
+    "leccion": "69f94d829fff2eca370dc5d3",
+    "pregunta": "¿Qué es el Hard Reset?",
+    "opciones": [
+      "Apagar",
+      "Restablecimiento de fábrica mediante botones",
+      "Limpiar pantalla"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.235Z",
+    "updatedAt": "2026-05-05T01:53:06.235Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d6",
+    "leccion": "69f94d829fff2eca370dc5d3",
+    "pregunta": "¿Para qué sirve el IMEI?",
+    "opciones": [
+      "Llamar",
+      "Identificador único del equipo móvil",
+      "Navegar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.236Z",
+    "updatedAt": "2026-05-05T01:53:06.236Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d8",
+    "leccion": "69f94d829fff2eca370dc5d7",
+    "pregunta": "¿Por qué no carga un celular?",
+    "opciones": [
+      "Falta de luz",
+      "Pin de carga sucio o dañado",
+      "Pantalla rota"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.237Z",
+    "updatedAt": "2026-05-05T01:53:06.237Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d9",
+    "leccion": "69f94d829fff2eca370dc5d7",
+    "pregunta": "Celular mojado, primer paso:",
+    "opciones": [
+      "Encenderlo",
+      "Retirar batería (si es posible) y no encender",
+      "Cargarlo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.237Z",
+    "updatedAt": "2026-05-05T01:53:06.237Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5da",
+    "leccion": "69f94d829fff2eca370dc5d7",
+    "pregunta": "¿Qué es el Bootloop?",
+    "opciones": [
+      "Un juego",
+      "Reinicio constante en el logo",
+      "Pantalla azul"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.238Z",
+    "updatedAt": "2026-05-05T01:53:06.238Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5dc",
+    "leccion": "69f94d829fff2eca370dc5db",
+    "pregunta": "¿Qué es el pegamento B7000?",
+    "opciones": [
+      "Champú",
+      "Adhesivo especial para pantallas y marcos",
+      "Pintura"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.240Z",
+    "updatedAt": "2026-05-05T01:53:06.240Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5dd",
+    "leccion": "69f94d829fff2eca370dc5db",
+    "pregunta": "¿Para qué sirve el isopropílico?",
+    "opciones": [
+      "Beber",
+      "Limpieza de circuitos y residuos de pegamento",
+      "Soldar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.240Z",
+    "updatedAt": "2026-05-05T01:53:06.240Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5de",
+    "leccion": "69f94d829fff2eca370dc5db",
+    "pregunta": "¿Qué es un cristal templado?",
+    "opciones": [
+      "Un vaso",
+      "Protección extra para la pantalla",
+      "Un espejo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.241Z",
+    "updatedAt": "2026-05-05T01:53:06.241Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5df",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "pregunta": "¿Cuál es el cerebro del celular?",
+    "opciones": [
+      "La batería",
+      "El procesador (SoC)",
+      "La cámara"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.242Z",
+    "updatedAt": "2026-05-05T01:53:06.242Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e0",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "pregunta": "¿Cómo verificar si un componente tiene corto?",
+    "opciones": [
+      "Mirándolo",
+      "Usando el multímetro en modo continuidad",
+      "Probando otro"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.243Z",
+    "updatedAt": "2026-05-05T01:53:06.243Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e1",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "pregunta": "¿Qué riesgo hay al abrir un celular con calor?",
+    "opciones": [
+      "Ninguno",
+      "Dañar componentes internos o la pantalla",
+      "Que se apague"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.243Z",
+    "updatedAt": "2026-05-05T01:53:06.243Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e2",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "pregunta": "¿Qué indica un IMEI reportado?",
+    "opciones": [
+      "Buena señal",
+      "Equipo bloqueado por robo o pérdida",
+      "Falta saldo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.244Z",
+    "updatedAt": "2026-05-05T01:53:06.244Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e3",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "pregunta": "Paso final tras cambiar una pantalla:",
+    "opciones": [
+      "Cobrar",
+      "Probar táctil, imagen y brillo antes de entregar",
+      "Limpiar por fuera"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.245Z",
+    "updatedAt": "2026-05-05T01:53:06.245Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e6",
+    "leccion": "69f94d829fff2eca370dc5e5",
+    "pregunta": "¿Qué es el primer?",
+    "opciones": [
+      "Un tinte",
+      "Pre-base para preparar y alisar la piel",
+      "Sombra"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.247Z",
+    "updatedAt": "2026-05-05T01:53:06.247Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e7",
+    "leccion": "69f94d829fff2eca370dc5e5",
+    "pregunta": "¿Para qué sirve el hidratante?",
+    "opciones": [
+      "Para que brille",
+      "Mantener el agua en la piel y evitar parches",
+      "Limpiar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.247Z",
+    "updatedAt": "2026-05-05T01:53:06.247Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e8",
+    "leccion": "69f94d829fff2eca370dc5e5",
+    "pregunta": "¿Qué es el agua micelar?",
+    "opciones": [
+      "Bebida",
+      "Limpiador que atrae suciedad y grasa",
+      "Perfume"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.248Z",
+    "updatedAt": "2026-05-05T01:53:06.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ea",
+    "leccion": "69f94d829fff2eca370dc5e9",
+    "pregunta": "¿Cómo elegir el tono de base?",
+    "opciones": [
+      "En la mano",
+      "Probando en la mandíbula o cuello",
+      "Mirando la caja"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.249Z",
+    "updatedAt": "2026-05-05T01:53:06.249Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5eb",
+    "leccion": "69f94d829fff2eca370dc5e9",
+    "pregunta": "¿Para qué sirve el corrector verde?",
+    "opciones": [
+      "Dar color",
+      "Neutralizar rojeces e imperfecciones rojas",
+      "Ojeras"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.250Z",
+    "updatedAt": "2026-05-05T01:53:06.250Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ec",
+    "leccion": "69f94d829fff2eca370dc5e9",
+    "pregunta": "¿Qué es la técnica \"Baking\"?",
+    "opciones": [
+      "Cocinar",
+      "Sellar con polvo translúcido por unos minutos",
+      "Difuminar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.250Z",
+    "updatedAt": "2026-05-05T01:53:06.250Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ee",
+    "leccion": "69f94d829fff2eca370dc5ed",
+    "pregunta": "¿Qué es el degradado en sombras?",
+    "opciones": [
+      "Un solo color",
+      "Transición suave entre varios colores",
+      "Pintar fuerte"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.251Z",
+    "updatedAt": "2026-05-05T01:53:06.251Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ef",
+    "leccion": "69f94d829fff2eca370dc5ed",
+    "pregunta": "¿Para qué sirve el delineador?",
+    "opciones": [
+      "Pestañas",
+      "Resaltar y definir la forma del ojo",
+      "Cejas"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.252Z",
+    "updatedAt": "2026-05-05T01:53:06.252Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f0",
+    "leccion": "69f94d829fff2eca370dc5ed",
+    "pregunta": "¿Qué es el \"cut crease\"?",
+    "opciones": [
+      "Un corte",
+      "Técnica de marcar el pliegue del párpado",
+      "Lavar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.252Z",
+    "updatedAt": "2026-05-05T01:53:06.252Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f2",
+    "leccion": "69f94d829fff2eca370dc5f1",
+    "pregunta": "¿Qué es el contouring?",
+    "opciones": [
+      "Brillo",
+      "Uso de sombras oscuras para definir facciones",
+      "Ponerse blanco"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.254Z",
+    "updatedAt": "2026-05-05T01:53:06.254Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f3",
+    "leccion": "69f94d829fff2eca370dc5f1",
+    "pregunta": "¿Dónde se aplica el iluminador?",
+    "opciones": [
+      "En todo el rostro",
+      "En puntos altos como pómulos y nariz",
+      "Bajo la barbilla"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.254Z",
+    "updatedAt": "2026-05-05T01:53:06.254Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f4",
+    "leccion": "69f94d829fff2eca370dc5f1",
+    "pregunta": "¿Para qué sirve el rubor?",
+    "opciones": [
+      "Ojeras",
+      "Dar un aspecto saludable y color a las mejillas",
+      "Labios"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.255Z",
+    "updatedAt": "2026-05-05T01:53:06.255Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f6",
+    "leccion": "69f94d829fff2eca370dc5f5",
+    "pregunta": "¿Para qué sirve el setting spray?",
+    "opciones": [
+      "Lavar",
+      "Fijar el maquillaje para que dure más",
+      "Brillo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.256Z",
+    "updatedAt": "2026-05-05T01:53:06.256Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f7",
+    "leccion": "69f94d829fff2eca370dc5f5",
+    "pregunta": "¿Qué es un labial mate?",
+    "opciones": [
+      "Con brillo",
+      "Acabado sin brillo y larga duración",
+      "Transparente"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.257Z",
+    "updatedAt": "2026-05-05T01:53:06.257Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f8",
+    "leccion": "69f94d829fff2eca370dc5f5",
+    "pregunta": "Uso del delineador de labios:",
+    "opciones": [
+      "Dibujar",
+      "Evitar que el labial se corra y definir",
+      "Pintar ojos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.257Z",
+    "updatedAt": "2026-05-05T01:53:06.257Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f9",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "pregunta": "¿Por qué es vital la limpieza de la piel antes?",
+    "opciones": [
+      "Para gastar producto",
+      "Para que el maquillaje se adhiera y luzca mejor",
+      "No es vital"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.258Z",
+    "updatedAt": "2026-05-05T01:53:06.258Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5fa",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "pregunta": "¿Qué color neutraliza las ojeras moradas?",
+    "opciones": [
+      "Verde",
+      "Naranja o melocotón",
+      "Azul"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.259Z",
+    "updatedAt": "2026-05-05T01:53:06.259Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5fb",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "pregunta": "¿Qué brocha se usa para difuminar sombras?",
+    "opciones": [
+      "Plana",
+      "De pelo suelto y redondeada",
+      "Abanico"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.260Z",
+    "updatedAt": "2026-05-05T01:53:06.260Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5fc",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "pregunta": "¿Cuál es el objetivo del iluminador?",
+    "opciones": [
+      "Tapar granos",
+      "Atraer luz a ciertas zonas del rostro",
+      "Oscurecer"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.260Z",
+    "updatedAt": "2026-05-05T01:53:06.260Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5fd",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "pregunta": "¿Cómo evitar que el maquillaje se cuartee?",
+    "opciones": [
+      "Poniendo mucho",
+      "Buena hidratación y sellado adecuado",
+      "No mojarlo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.261Z",
+    "updatedAt": "2026-05-05T01:53:06.261Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc600",
+    "leccion": "69f94d829fff2eca370dc5ff",
+    "pregunta": "¿Qué es el visagismo?",
+    "opciones": [
+      "Un tinte",
+      "Estudio de las proporciones del rostro",
+      "Cortar pelos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.263Z",
+    "updatedAt": "2026-05-05T01:53:06.263Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc601",
+    "leccion": "69f94d829fff2eca370dc5ff",
+    "pregunta": "¿Dónde debe empezar la ceja?",
+    "opciones": [
+      "En la oreja",
+      "Alineada con la aleta de la nariz",
+      "En el centro"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.263Z",
+    "updatedAt": "2026-05-05T01:53:06.263Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc602",
+    "leccion": "69f94d829fff2eca370dc5ff",
+    "pregunta": "¿Qué define el punto más alto?",
+    "opciones": [
+      "El ojo",
+      "El arco de la ceja según la pupila",
+      "La frente"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.264Z",
+    "updatedAt": "2026-05-05T01:53:06.264Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc604",
+    "leccion": "69f94d829fff2eca370dc603",
+    "pregunta": "¿Para qué sirve la pinza?",
+    "opciones": [
+      "Pintar",
+      "Extraer el vello de raíz uno a uno",
+      "Peinar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.265Z",
+    "updatedAt": "2026-05-05T01:53:06.265Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc605",
+    "leccion": "69f94d829fff2eca370dc603",
+    "pregunta": "¿Qué es la depilación con hilo?",
+    "opciones": [
+      "Coser",
+      "Técnica hindú usando hilo de algodón",
+      "Pegar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.265Z",
+    "updatedAt": "2026-05-05T01:53:06.265Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc606",
+    "leccion": "69f94d829fff2eca370dc603",
+    "pregunta": "Uso de la cera:",
+    "opciones": [
+      "Brillo",
+      "Retirar vello de zonas más amplias rápido",
+      "Lavar"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.266Z",
+    "updatedAt": "2026-05-05T01:53:06.266Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc608",
+    "leccion": "69f94d829fff2eca370dc607",
+    "pregunta": "¿Qué es la henna para cejas?",
+    "opciones": [
+      "Un tinte permanente",
+      "Pigmento natural que sombrea piel y vello",
+      "Maquillaje"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.267Z",
+    "updatedAt": "2026-05-05T01:53:06.267Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc609",
+    "leccion": "69f94d829fff2eca370dc607",
+    "pregunta": "Duración de la henna:",
+    "opciones": [
+      "Un año",
+      "De 7 a 15 días aproximadamente",
+      "Para siempre"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.268Z",
+    "updatedAt": "2026-05-05T01:53:06.268Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc60a",
+    "leccion": "69f94d829fff2eca370dc607",
+    "pregunta": "¿Para qué sirve la prueba de alergia?",
+    "opciones": [
+      "Perder tiempo",
+      "Evitar reacciones adversas en el cliente",
+      "Ver el color"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.268Z",
+    "updatedAt": "2026-05-05T01:53:06.268Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc60c",
+    "leccion": "69f94d829fff2eca370dc60b",
+    "pregunta": "¿Qué es el laminado?",
+    "opciones": [
+      "Cortarlas",
+      "Técnica para dar dirección y volumen al vello",
+      "Pintarlas"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.269Z",
+    "updatedAt": "2026-05-05T01:53:06.269Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc60d",
+    "leccion": "69f94d829fff2eca370dc60b",
+    "pregunta": "¿Para qué sirve el neutralizante?",
+    "opciones": [
+      "Lavar",
+      "Fijar la nueva forma del vello",
+      "Dar color"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.270Z",
+    "updatedAt": "2026-05-05T01:53:06.270Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc60e",
+    "leccion": "69f94d829fff2eca370dc60b",
+    "pregunta": "Cuidado post-laminado (24h):",
+    "opciones": [
+      "Maquillar",
+      "No mojar las cejas",
+      "Hacer ejercicio"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.270Z",
+    "updatedAt": "2026-05-05T01:53:06.270Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc610",
+    "leccion": "69f94d829fff2eca370dc60f",
+    "pregunta": "¿Qué es el hilo marcador?",
+    "opciones": [
+      "Para coser",
+      "Hilo impregnado de color para marcar líneas",
+      "Un metro"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.271Z",
+    "updatedAt": "2026-05-05T01:53:06.271Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc611",
+    "leccion": "69f94d829fff2eca370dc60f",
+    "pregunta": "Importancia de la simetría:",
+    "opciones": [
+      "No importa",
+      "Lograr armonía entre ambas cejas",
+      "Se ve feo"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.272Z",
+    "updatedAt": "2026-05-05T01:53:06.272Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc612",
+    "leccion": "69f94d829fff2eca370dc60f",
+    "pregunta": "¿Qué es el microblading (teoría)?",
+    "opciones": [
+      "Maquillaje",
+      "Técnica de tatuaje semipermanente pelo a pelo",
+      "Una crema"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.272Z",
+    "updatedAt": "2026-05-05T01:53:06.272Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc613",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "pregunta": "¿Cuál es la clave de un buen diseño de cejas?",
+    "opciones": [
+      "Hacerlas muy gruesas",
+      "Respetar la forma natural y morfología",
+      "Hacerlas negras"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.273Z",
+    "updatedAt": "2026-05-05T01:53:06.273Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc614",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "pregunta": "Dirección al extraer el vello con pinza:",
+    "opciones": [
+      "En contra",
+      "A favor del crecimiento del vello",
+      "Como sea"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.274Z",
+    "updatedAt": "2026-05-05T01:53:06.274Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc615",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "pregunta": "¿Qué hacer si la henna queda muy oscura?",
+    "opciones": [
+      "Llorar",
+      "Aclarar con champú o removedor especial",
+      "No hacer nada"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.274Z",
+    "updatedAt": "2026-05-05T01:53:06.274Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc616",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "pregunta": "¿Qué producto nutre las cejas tras un proceso químico?",
+    "opciones": [
+      "Agua",
+      "Aceite de ricino o sérum nutritivo",
+      "Alcohol"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.275Z",
+    "updatedAt": "2026-05-05T01:53:06.275Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc617",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "pregunta": "¿Por qué es vital el mapeo?",
+    "opciones": [
+      "Para tardar más",
+      "Para asegurar medidas precisas y simetría",
+      "Para fotos"
+    ],
+    "respuestaCorrecta": 1,
+    "createdAt": "2026-05-05T01:53:06.275Z",
+    "updatedAt": "2026-05-05T01:53:06.275Z",
+    "__v": 0
+  }
+]

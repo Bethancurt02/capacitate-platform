@@ -1,0 +1,602 @@
+[
+  {
+    "_id": "69f94d819fff2eca370dc4e1",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "titulo": "Módulo 1: Gestión Administrativa",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre gestión administrativa.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:05.980Z",
+    "updatedAt": "2026-05-05T01:53:05.980Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4e5",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "titulo": "Módulo 2: Archivo y Documentación",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre archivo y documentación.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:05.985Z",
+    "updatedAt": "2026-05-05T01:53:05.985Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4e9",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "titulo": "Módulo 3: Atención al Cliente",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre atención al cliente.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:05.988Z",
+    "updatedAt": "2026-05-05T01:53:05.988Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4ed",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "titulo": "Módulo 4: Ofimática Básica",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre ofimática básica.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:05.993Z",
+    "updatedAt": "2026-05-05T01:53:05.993Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d819fff2eca370dc4f1",
+    "curso": "69f94d819fff2eca370dc4e0",
+    "titulo": "Módulo 5: Ética Profesional",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre ética profesional.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:05.996Z",
+    "updatedAt": "2026-05-05T01:53:05.996Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4fb",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "titulo": "Módulo 1: Hardware y Software",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre hardware y software.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.004Z",
+    "updatedAt": "2026-05-05T01:53:06.004Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc4ff",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "titulo": "Módulo 2: Sistemas Operativos",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre sistemas operativos.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.011Z",
+    "updatedAt": "2026-05-05T01:53:06.011Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc503",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "titulo": "Módulo 3: Internet y Navegación",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre internet y navegación.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.014Z",
+    "updatedAt": "2026-05-05T01:53:06.014Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc507",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "titulo": "Módulo 4: Seguridad Digital",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre seguridad digital.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.016Z",
+    "updatedAt": "2026-05-05T01:53:06.016Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc50b",
+    "curso": "69f94d829fff2eca370dc4fa",
+    "titulo": "Módulo 5: Ofimática (Word/Excel)",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre ofimática (word/excel).</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.019Z",
+    "updatedAt": "2026-05-05T01:53:06.019Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc515",
+    "curso": "69f94d829fff2eca370dc514",
+    "titulo": "Módulo 1: Corte de Cabello",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre corte de cabello.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.030Z",
+    "updatedAt": "2026-05-05T01:53:06.030Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc519",
+    "curso": "69f94d829fff2eca370dc514",
+    "titulo": "Módulo 2: Colorimetría Básica",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre colorimetría básica.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.033Z",
+    "updatedAt": "2026-05-05T01:53:06.033Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc51d",
+    "curso": "69f94d829fff2eca370dc514",
+    "titulo": "Módulo 3: Tratamientos Capilares",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre tratamientos capilares.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.036Z",
+    "updatedAt": "2026-05-05T01:53:06.036Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc521",
+    "curso": "69f94d829fff2eca370dc514",
+    "titulo": "Módulo 4: Peinados y Estilo",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre peinados y estilo.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.039Z",
+    "updatedAt": "2026-05-05T01:53:06.039Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc525",
+    "curso": "69f94d829fff2eca370dc514",
+    "titulo": "Módulo 5: Higiene en el Salón",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre higiene en el salón.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.043Z",
+    "updatedAt": "2026-05-05T01:53:06.043Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc52f",
+    "curso": "69f94d829fff2eca370dc52e",
+    "titulo": "Módulo 1: Manejo de Efectivo",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre manejo de efectivo.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.050Z",
+    "updatedAt": "2026-05-05T01:53:06.050Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc533",
+    "curso": "69f94d829fff2eca370dc52e",
+    "titulo": "Módulo 2: Sistemas de Cobro",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre sistemas de cobro.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.052Z",
+    "updatedAt": "2026-05-05T01:53:06.052Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc537",
+    "curso": "69f94d829fff2eca370dc52e",
+    "titulo": "Módulo 3: Atención al Cliente",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre atención al cliente.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.055Z",
+    "updatedAt": "2026-05-05T01:53:06.055Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc53b",
+    "curso": "69f94d829fff2eca370dc52e",
+    "titulo": "Módulo 4: Prevención de Pérdidas",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre prevención de pérdidas.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.059Z",
+    "updatedAt": "2026-05-05T01:53:06.059Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc53f",
+    "curso": "69f94d829fff2eca370dc52e",
+    "titulo": "Módulo 5: Cierre de Turno",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre cierre de turno.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.062Z",
+    "updatedAt": "2026-05-05T01:53:06.062Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc549",
+    "curso": "69f94d829fff2eca370dc548",
+    "titulo": "Módulo 1: Manicura Básica",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre manicura básica.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.071Z",
+    "updatedAt": "2026-05-05T01:53:06.071Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc54d",
+    "curso": "69f94d829fff2eca370dc548",
+    "titulo": "Módulo 2: Uñas Acrílicas",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre uñas acrílicas.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.078Z",
+    "updatedAt": "2026-05-05T01:53:06.078Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc551",
+    "curso": "69f94d829fff2eca370dc548",
+    "titulo": "Módulo 3: Esmaltado Semipermanente",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre esmaltado semipermanente.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.081Z",
+    "updatedAt": "2026-05-05T01:53:06.081Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc555",
+    "curso": "69f94d829fff2eca370dc548",
+    "titulo": "Módulo 4: Decoración (Nail Art)",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre decoración (nail art).</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.083Z",
+    "updatedAt": "2026-05-05T01:53:06.083Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc559",
+    "curso": "69f94d829fff2eca370dc548",
+    "titulo": "Módulo 5: Esterilización y Enfermedades",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre esterilización y enfermedades.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.086Z",
+    "updatedAt": "2026-05-05T01:53:06.086Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc563",
+    "curso": "69f94d829fff2eca370dc562",
+    "titulo": "Módulo 1: Farmacología Básica",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre farmacología básica.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.098Z",
+    "updatedAt": "2026-05-05T01:53:06.098Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc567",
+    "curso": "69f94d829fff2eca370dc562",
+    "titulo": "Módulo 2: Dispensación de Recetas",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre dispensación de recetas.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.105Z",
+    "updatedAt": "2026-05-05T01:53:06.105Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc56b",
+    "curso": "69f94d829fff2eca370dc562",
+    "titulo": "Módulo 3: Almacenamiento y Control",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre almacenamiento y control.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.110Z",
+    "updatedAt": "2026-05-05T01:53:06.110Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc56f",
+    "curso": "69f94d829fff2eca370dc562",
+    "titulo": "Módulo 4: Normativa Legal",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre normativa legal.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.115Z",
+    "updatedAt": "2026-05-05T01:53:06.115Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc573",
+    "curso": "69f94d829fff2eca370dc562",
+    "titulo": "Módulo 5: Primeros Auxilios",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre primeros auxilios.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.120Z",
+    "updatedAt": "2026-05-05T01:53:06.120Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc57d",
+    "curso": "69f94d829fff2eca370dc57c",
+    "titulo": "Módulo 1: Herramientas del Barbero",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre herramientas del barbero.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.132Z",
+    "updatedAt": "2026-05-05T01:53:06.132Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc581",
+    "curso": "69f94d829fff2eca370dc57c",
+    "titulo": "Módulo 2: Técnicas de Degradado (Fade)",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre técnicas de degradado (fade).</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.138Z",
+    "updatedAt": "2026-05-05T01:53:06.138Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc585",
+    "curso": "69f94d829fff2eca370dc57c",
+    "titulo": "Módulo 3: Afeitado y Barba",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre afeitado y barba.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.146Z",
+    "updatedAt": "2026-05-05T01:53:06.146Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc589",
+    "curso": "69f94d829fff2eca370dc57c",
+    "titulo": "Módulo 4: Diseño y Perfilado",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre diseño y perfilado.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.153Z",
+    "updatedAt": "2026-05-05T01:53:06.153Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc58d",
+    "curso": "69f94d829fff2eca370dc57c",
+    "titulo": "Módulo 5: Bioseguridad",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre bioseguridad.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.157Z",
+    "updatedAt": "2026-05-05T01:53:06.157Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc597",
+    "curso": "69f94d829fff2eca370dc596",
+    "titulo": "Módulo 1: Signos Vitales",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre signos vitales.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.174Z",
+    "updatedAt": "2026-05-05T01:53:06.174Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc59b",
+    "curso": "69f94d829fff2eca370dc596",
+    "titulo": "Módulo 2: Higiene y Confort",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre higiene y confort.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.181Z",
+    "updatedAt": "2026-05-05T01:53:06.181Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc59f",
+    "curso": "69f94d829fff2eca370dc596",
+    "titulo": "Módulo 3: Administración de Medicamentos",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre administración de medicamentos.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.185Z",
+    "updatedAt": "2026-05-05T01:53:06.185Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a3",
+    "curso": "69f94d829fff2eca370dc596",
+    "titulo": "Módulo 4: Curación de Heridas",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre curación de heridas.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.190Z",
+    "updatedAt": "2026-05-05T01:53:06.190Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5a7",
+    "curso": "69f94d829fff2eca370dc596",
+    "titulo": "Módulo 5: Ética en Enfermería",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre ética en enfermería.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.194Z",
+    "updatedAt": "2026-05-05T01:53:06.194Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b1",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "titulo": "Módulo 1: Greetings and Basics",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre greetings and basics.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.204Z",
+    "updatedAt": "2026-05-05T01:53:06.204Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b5",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "titulo": "Módulo 2: Verb To Be",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre verb to be.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.207Z",
+    "updatedAt": "2026-05-05T01:53:06.207Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5b9",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "titulo": "Módulo 3: Numbers and Time",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre numbers and time.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.210Z",
+    "updatedAt": "2026-05-05T01:53:06.210Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5bd",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "titulo": "Módulo 4: Common Verbs",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre common verbs.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.213Z",
+    "updatedAt": "2026-05-05T01:53:06.213Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5c1",
+    "curso": "69f94d829fff2eca370dc5b0",
+    "titulo": "Módulo 5: Simple Conversations",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre simple conversations.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.217Z",
+    "updatedAt": "2026-05-05T01:53:06.217Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5cb",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "titulo": "Módulo 1: Componentes de un Smartphone",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre componentes de un smartphone.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.227Z",
+    "updatedAt": "2026-05-05T01:53:06.227Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5cf",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "titulo": "Módulo 2: Herramientas de Reparación",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre herramientas de reparación.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.231Z",
+    "updatedAt": "2026-05-05T01:53:06.231Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d3",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "titulo": "Módulo 3: Software y Flasheo",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre software y flasheo.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.234Z",
+    "updatedAt": "2026-05-05T01:53:06.234Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5d7",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "titulo": "Módulo 4: Fallas Comunes",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre fallas comunes.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.236Z",
+    "updatedAt": "2026-05-05T01:53:06.236Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5db",
+    "curso": "69f94d829fff2eca370dc5ca",
+    "titulo": "Módulo 5: Cambio de Pantallas",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre cambio de pantallas.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.239Z",
+    "updatedAt": "2026-05-05T01:53:06.239Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e5",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "titulo": "Módulo 1: Preparación de la Piel",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre preparación de la piel.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.246Z",
+    "updatedAt": "2026-05-05T01:53:06.246Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5e9",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "titulo": "Módulo 2: Bases y Correctores",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre bases y correctores.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.248Z",
+    "updatedAt": "2026-05-05T01:53:06.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ed",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "titulo": "Módulo 3: Ojos y Cejas",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre ojos y cejas.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.251Z",
+    "updatedAt": "2026-05-05T01:53:06.251Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f1",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "titulo": "Módulo 4: Contorno e Iluminación",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre contorno e iluminación.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.253Z",
+    "updatedAt": "2026-05-05T01:53:06.253Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5f5",
+    "curso": "69f94d829fff2eca370dc5e4",
+    "titulo": "Módulo 5: Sellado y Labios",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre sellado y labios.</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.255Z",
+    "updatedAt": "2026-05-05T01:53:06.255Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc5ff",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "titulo": "Módulo 1: Morfología del Rostro",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre morfología del rostro.</p>",
+    "orden": 1,
+    "createdAt": "2026-05-05T01:53:06.262Z",
+    "updatedAt": "2026-05-05T01:53:06.262Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc603",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "titulo": "Módulo 2: Depilación y Perfilado",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre depilación y perfilado.</p>",
+    "orden": 2,
+    "createdAt": "2026-05-05T01:53:06.264Z",
+    "updatedAt": "2026-05-05T01:53:06.264Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc607",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "titulo": "Módulo 3: Tinte y Henna",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre tinte y henna.</p>",
+    "orden": 3,
+    "createdAt": "2026-05-05T01:53:06.266Z",
+    "updatedAt": "2026-05-05T01:53:06.266Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc60b",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "titulo": "Módulo 4: Laminado de Cejas",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre laminado de cejas.</p>",
+    "orden": 4,
+    "createdAt": "2026-05-05T01:53:06.269Z",
+    "updatedAt": "2026-05-05T01:53:06.269Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94d829fff2eca370dc60f",
+    "curso": "69f94d829fff2eca370dc5fe",
+    "titulo": "Módulo 5: Diseño de Cejas (Mapping)",
+    "contenido": "<h3>Contenido del Módulo</h3><p>En esta lección aprenderás todo sobre diseño de cejas (mapping).</p>",
+    "orden": 5,
+    "createdAt": "2026-05-05T01:53:06.271Z",
+    "updatedAt": "2026-05-05T01:53:06.271Z",
+    "__v": 0
+  }
+]

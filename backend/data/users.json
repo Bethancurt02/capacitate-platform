@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "69f93f1ca9b61026efa01139",
+    "nombre": "Administrador",
+    "email": "admin@capacitate.com",
+    "password": "$2b$10$ghs8AEt.ZQYeIBiXPpfSduYwhtotRmk2.e7oX2KeduyhGaR6h1w0O",
+    "fotoPerfil": "",
+    "rol": "admin",
+    "createdAt": "2026-05-05T00:51:40.884Z",
+    "updatedAt": "2026-05-05T00:51:40.884Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f93f1ca9b61026efa0113a",
+    "nombre": "Usuario Prueba",
+    "email": "user@capacitate.com",
+    "password": "$2b$10$QectqDfBIbFO1BSe6aCKjOcDkQDSiz36dkX94vWWsHLX5t2zToNH6",
+    "fotoPerfil": "",
+    "rol": "user",
+    "createdAt": "2026-05-05T00:51:40.884Z",
+    "updatedAt": "2026-05-05T00:51:40.884Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f94012a9b61026efa01277",
+    "nombre": "eduard",
+    "email": "bethancurtvaldez@capacitate.com",
+    "password": "$2b$10$3HCW8su9pwiaiyJGjhOgbexJzFD.hWhl/xTpoldhrpKrIWGvvKGMe",
+    "fotoPerfil": "/uploads/fotoPerfil-1777942554918.jpg",
+    "rol": "user",
+    "createdAt": "2026-05-05T00:55:46.689Z",
+    "updatedAt": "2026-05-05T00:55:54.923Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f941b7a9b61026efa0127a",
+    "nombre": "ana",
+    "email": "ana@capacitate.com",
+    "password": "$2b$10$3D4s54vtb9vBbuqMCj4iEObtx4bicQneYgI5E/UPRudXd3jC2UGI.",
+    "fotoPerfil": "",
+    "rol": "user",
+    "createdAt": "2026-05-05T01:02:47.382Z",
+    "updatedAt": "2026-05-05T01:02:47.382Z",
+    "__v": 0
+  },
+  {
+    "_id": "69f941f9a9b61026efa0127b",
+    "nombre": "edu",
+    "email": "bethancurtvaldeze@gmail.com",
+    "password": "$2b$10$5iOsYBaCfYTERNiPiideiOq5.iIURFLLCEYOP9ssf7EUhBEnvtJvS",
+    "fotoPerfil": "",
+    "rol": "user",
+    "createdAt": "2026-05-05T01:03:53.205Z",
+    "updatedAt": "2026-05-05T01:05:21.121Z",
+    "__v": 0
+  }
+]
