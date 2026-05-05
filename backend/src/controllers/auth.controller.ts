@@ -30,7 +30,9 @@ export const registerUser = async (req: Request, res: Response): Promise<any> =>
       return res.status(400).json({ message: 'Por favor, incluya todos los campos requeridos' });
     }
 
-    const userExists = await User.findOne({ email });
+    // Normalizamos el email para evitar duplicados por mayúsculas
+    const normalizedEmail = email.toLowerCase().trim();
+    const userExists = await User.findOne({ email: normalizedEmail });
 
     if (userExists) {
       return res.status(400).json({ message: 'El usuario ya existe' });
@@ -38,7 +40,7 @@ export const registerUser = async (req: Request, res: Response): Promise<any> =>
 
     const user = await User.create({
       nombre,
-      email,
+      email: normalizedEmail,
       password,
       rol: rol || 'user',
     });
@@ -74,7 +76,9 @@ export const loginUser = async (req: Request, res: Response): Promise<any> => {
       return res.status(400).json({ message: 'Por favor, ingrese email y contraseña' });
     }
 
-    const user = await User.findOne({ email });
+    // Normalizamos el email para la búsqueda
+    const normalizedEmail = email.toLowerCase().trim();
+    const user = await User.findOne({ email: normalizedEmail });
 
     if (user && (await user.matchPassword(password))) {
       return res.status(200).json({
@@ -99,7 +103,10 @@ export const loginUser = async (req: Request, res: Response): Promise<any> => {
 export const forgotPassword = async (req: Request, res: Response): Promise<any> => {
   try {
     const { email } = req.body;
-    const user = await User.findOne({ email });
+    
+    // ARREGLO CRÍTICO: Normalizamos el email antes de buscar
+    const normalizedEmail = email.toLowerCase().trim();
+    const user = await User.findOne({ email: normalizedEmail });
 
     if (!user) {
       return res.status(404).json({ message: 'Usuario no encontrado' });
@@ -117,7 +124,7 @@ export const forgotPassword = async (req: Request, res: Response): Promise<any> 
 
       const mailOptions = {
         from: '"Hacer Competente" <noreply@hacercompetente.com>',
-        to: email,
+        to: normalizedEmail,
         subject: '🔐 Recuperación de Contraseña - Hacer Competente',
         html: `
           <div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 600px; margin: 0 auto; background: #f8fafc; border-radius: 16px; overflow: hidden;">
@@ -150,7 +157,7 @@ export const forgotPassword = async (req: Request, res: Response): Promise<any> 
       const info = await transporter.sendMail(mailOptions);
       const previewUrl = nodemailer.getTestMessageUrl(info);
 
-      console.log(`📧 Email sent for ${email}. Preview: ${previewUrl}`);
+      console.log(`📧 Email sent for ${normalizedEmail}. Preview: ${previewUrl}`);
 
       return res.status(200).json({
         message: 'Código de recuperación enviado. Revisa el enlace de vista previa.',
@@ -177,9 +184,10 @@ export const forgotPassword = async (req: Request, res: Response): Promise<any> 
 export const resetPassword = async (req: Request, res: Response): Promise<any> => {
   try {
     const { email, code, newPassword } = req.body;
+    const normalizedEmail = email.toLowerCase().trim();
 
     const user = await User.findOne({
-      email,
+      email: normalizedEmail,
       resetPasswordCode: code,
       resetPasswordExpires: { $gt: Date.now() }
     });
@@ -209,7 +217,7 @@ export const updateProfile = async (req: AuthRequest, res: Response): Promise<an
 
     if (user) {
       user.nombre = req.body.nombre || user.nombre;
-      user.email = req.body.email || user.email;
+      user.email = req.body.email ? req.body.email.toLowerCase().trim() : user.email;
 
       if (req.file) {
         user.fotoPerfil = `/uploads/${req.file.filename}`;
