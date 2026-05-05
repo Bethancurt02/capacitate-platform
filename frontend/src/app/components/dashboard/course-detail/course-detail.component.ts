@@ -286,6 +286,6 @@ export class CourseDetailComponent implements OnInit {
   getCourseImage(path: string): string {
     if (!path) return 'assets/default-course.png';
     if (path.startsWith('http')) return path;
-    return `http://localhost:5000${path}`;
+    return `${this.authService.baseUrl}${path}`;
   }
 }
