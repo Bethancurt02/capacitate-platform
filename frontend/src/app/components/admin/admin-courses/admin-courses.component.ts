@@ -26,6 +26,7 @@ export class AdminCoursesComponent implements OnInit {
     descripcion: '',
     categoria: '',
     imagen: '',
+    videoIntro: '',
     isActive: true,
     lessons: []
   };
@@ -55,6 +56,7 @@ export class AdminCoursesComponent implements OnInit {
       descripcion: '', 
       categoria: '', 
       imagen: '', 
+      videoIntro: '',
       isActive: true,
       lessons: [] 
     };
