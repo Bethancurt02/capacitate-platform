@@ -6,20 +6,14 @@ import Progress from '../models/Progress';
 
 export const seedData = async () => {
   try {
-    console.log('Clearing existing database collections for fresh seed...');
-    await Course.deleteMany({});
-    await Lesson.deleteMany({});
-    await Question.deleteMany({});
-    await User.deleteMany({}); // Limpiar usuarios para permitir registro fresco
-    await Progress.deleteMany({}); // Limpiar progreso
+    // Only seed if the database is empty
+    const existingCourses = await Course.countDocuments();
+    if (existingCourses > 0) {
+      console.log(`Database already has ${existingCourses} courses. Skipping seed.`);
+      return;
+    }
 
-    console.log('Creating initial users...');
-    await User.create([
-      { nombre: 'Administrador', email: 'admin@capacitate.com', password: 'admin123', rol: 'admin' },
-      { nombre: 'Usuario Prueba', email: 'user@capacitate.com', password: 'user123', rol: 'user' }
-    ]);
-
-    console.log('Seeding courses for the first time... (VER 2.1 - FULL ENGLISH)');
+    console.log('Database is empty. Running seed for the first time...');
 
     const coursesInfo = [
       { 
@@ -470,12 +464,26 @@ export const seedData = async () => {
 
     for (const info of coursesInfo) {
       console.log(`Seeding course: ${info.titulo}`);
+      const videoMap: Record<string, string> = {
+        'Secretaria': 'https://www.youtube.com/embed/egqcVcjeL38',
+        'Informática': 'https://www.youtube.com/embed/m8jS0i8n9z4',
+        'Estilista': 'https://www.youtube.com/embed/4B6O8ONWJJs',
+        'Cajero': 'https://www.youtube.com/embed/cAMGSEWTZ9Y',
+        'Uñas': 'https://www.youtube.com/embed/KW7KjDQYa5g',
+        'Farmacia': 'https://www.youtube.com/embed/jIs2qgAhxSI',
+        'Barbería': 'https://www.youtube.com/embed/sA-WJGgxYsc',
+        'Enfermería': 'https://www.youtube.com/embed/eTyOS343c8s',
+        'Inglés': 'https://www.youtube.com/embed/l0Xtt9WpHVY',
+        'Celulares': 'https://www.youtube.com/embed/51HubHTj-xk',
+        'Maquillaje': 'https://www.youtube.com/embed/hNFCxTbrmEs',
+        'Cejas': 'https://www.youtube.com/embed/SxOf1GPvVjQ'
+      };
       const course = await Course.create({
         titulo: `Curso de ${info.titulo}`,
         descripcion: `Conviértete en un experto ${info.titulo.toLowerCase()} con nuestro programa profesional de 5 módulos.`,
         categoria: info.cat,
         imagen: info.img,
-        videoIntro: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        videoIntro: videoMap[info.titulo] || '',
         isActive: true
       });
 
